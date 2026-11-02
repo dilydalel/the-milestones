@@ -261,3 +261,6 @@ body.enq-open{overflow:hidden}
 /* genre tags move down together with the photo */
 .bands .band .tags{margin-top:auto}
 .bands .band .tags+.photo,.bands .band .tags+.ph{margin-top:0}
+
+/* home band boxes: tagline in light normal text, not capitals */
+.band .tagline{text-transform:none;letter-spacing:0;font-size:16px;font-weight:300;line-height:1.4;color:#545454}
