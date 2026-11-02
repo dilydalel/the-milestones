@@ -36,21 +36,29 @@
   });
 
   // ---------- testimonials slider (as on the FSQ site): no looping, arrows hide at the ends
-  // ---------- long quotes: "Read more" when they are cut to 4 lines
+  // ---------- long quotes: cut to 4 lines with "…"; click the quote to read it all, click again to shorten
   function checkMore() {
     document.querySelectorAll('.quotes figure').forEach(function (f) {
-      var t = f.querySelector('.qtext'), b = f.querySelector('.qmore');
-      if (!t || !b || f.classList.contains('open')) return;
+      var t = f.querySelector('.qtext');
+      if (!t || f.classList.contains('open')) return;
       var lh = parseFloat(getComputedStyle(t).lineHeight) || 30; // the closing quote mark pokes out a little, so allow for it
-      b.hidden = t.scrollHeight <= t.clientHeight + lh * 0.6;
+      var cut = t.scrollHeight > t.clientHeight + lh * 0.6;
+      f.classList.toggle('cut', cut);
+      if (cut) { t.setAttribute('tabindex', '0'); t.setAttribute('role', 'button'); t.setAttribute('aria-expanded', 'false'); t.title = 'Read the full quote'; }
+      else { t.removeAttribute('tabindex'); t.removeAttribute('role'); t.removeAttribute('aria-expanded'); t.removeAttribute('title'); }
     });
   }
-  document.querySelectorAll('.qmore').forEach(function (b) {
-    b.addEventListener('click', function () {
-      var f = b.closest('figure'), open = f.classList.toggle('open');
-      b.textContent = open ? 'Show less' : 'Read more';
-      if (!open) checkMore();
-    });
+  function toggleQuote(t) {
+    var f = t.closest('figure');
+    if (!f.classList.contains('cut') && !f.classList.contains('open')) return;
+    var open = f.classList.toggle('open');
+    t.setAttribute('aria-expanded', open ? 'true' : 'false');
+    t.title = open ? 'Shorten' : 'Read the full quote';
+    if (!open) checkMore();
+  }
+  document.querySelectorAll('.quotes .qtext').forEach(function (t) {
+    t.addEventListener('click', function () { toggleQuote(t); });
+    t.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleQuote(t); } });
   });
   checkMore();
   window.addEventListener('resize', checkMore);
