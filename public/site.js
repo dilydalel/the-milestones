@@ -99,6 +99,16 @@
   if (!form) return;
 
   // ---------- enquiry "basket": kept while moving between pages
+  // ---------- event type: a box to say more when the chosen type asks for it (e.g. Other)
+  var et = document.getElementById('eventType'), etMore = document.getElementById('eventTypeMore');
+  function syncMore() {
+    if (!et || !etMore) return;
+    var o = et.options[et.selectedIndex], on = !!(o && o.hasAttribute('data-more'));
+    etMore.hidden = !on; etMore.required = on;
+    if (!on) { etMore.value = ''; var fl = etMore.closest('.field'); if (fl) fl.classList.remove('invalid'); }
+  }
+  if (et) et.addEventListener('change', function () { syncMore(); if (!etMore.hidden) etMore.focus(); });
+
   var KEY = 'mm-enquiry';
   function loadDraft() { try { return JSON.parse(localStorage.getItem(KEY)) || null; } catch (e) { return null; } }
   function saveDraft(d) { try { localStorage.setItem(KEY, JSON.stringify(d)); } catch (e) {} }
@@ -139,6 +149,7 @@
 
   var draft = loadDraft();
   if (draft) writeForm(draft);
+  syncMore();
   var params = new URLSearchParams(location.search);
   if (params.get('band')) selectBand(params.get('band'));
   form.addEventListener('input', persist);
@@ -202,6 +213,8 @@
     var data = {};
     var fd = new FormData(form);
     fd.forEach(function (v, k) { data[k] = fd.getAll(k).join(', '); });
+    if (data.eventTypeMore) data.eventType = data.eventType + ': ' + data.eventTypeMore; // e.g. "Other: christening"
+    delete data.eventTypeMore;
     var button = form.querySelector('button[type=submit]');
     button.disabled = true;
     fetch('/api/enquiries', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })

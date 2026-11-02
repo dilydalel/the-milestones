@@ -1,0 +1,34 @@
+[
+ {
+  "id": "event-wedding",
+  "name": "Wedding",
+  "order": 1,
+  "askMore": false,
+  "createdAt": "2026-11-02T22:44:33.000Z",
+  "updatedAt": "2026-11-02T22:44:33.000Z"
+ },
+ {
+  "id": "event-party",
+  "name": "Party",
+  "order": 2,
+  "askMore": false,
+  "createdAt": "2026-11-02T22:44:33.000Z",
+  "updatedAt": "2026-11-02T22:44:33.000Z"
+ },
+ {
+  "id": "event-corporate",
+  "name": "Corporate",
+  "order": 3,
+  "askMore": false,
+  "createdAt": "2026-11-02T22:44:33.000Z",
+  "updatedAt": "2026-11-02T22:44:33.000Z"
+ },
+ {
+  "id": "event-other",
+  "name": "Other",
+  "order": 4,
+  "askMore": true,
+  "createdAt": "2026-11-02T22:44:33.000Z",
+  "updatedAt": "2026-11-02T22:44:33.000Z"
+ }
+]
