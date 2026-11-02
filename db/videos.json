@@ -24,13 +24,13 @@
  {
   "bandId": "band-steppingstones",
   "title": "Live",
-  "youtubeUrl": "",
-  "file": "source-assets/old-site-videos/Milestones-Live-1.mp4",
+  "youtubeUrl": "https://www.youtube.com/watch?v=dVBMfdB5a6g",
+  "file": "",
   "poster": "source-assets/old-site-videos/video_live_1.jpg",
   "order": 3,
   "id": "video-3",
   "createdAt": "2026-11-02T16:01:04.513Z",
-  "updatedAt": "2026-11-02T17:26:28.776Z"
+  "updatedAt": "2026-11-02T18:34:20.062Z"
  },
  {
   "bandId": "band-stony-strings",
