@@ -289,3 +289,6 @@ body.enq-open{overflow:hidden}
 .band-side .instr ul{max-width:none}
 /* band pages: About text stays in its own column beside the photo (no wrapping underneath) */
 @media(min-width:801px){.band-text{display:flow-root}}
+/* contact details and Talk to us: normal text, not capitals */
+.info p{text-transform:none;letter-spacing:0;line-height:1.7;font-size:16px}
+.enq-body .info p{font-size:15px;line-height:1.7}
