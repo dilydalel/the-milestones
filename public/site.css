@@ -267,4 +267,4 @@ body.enq-open{overflow:hidden}
 /* home band boxes: band type sits close above the name */
 .band h2{margin-top:3px;margin-bottom:20px}
 /* home band boxes: tighter padding (phones keep their own padding) */
-@media(min-width:801px){.band{padding:20px 28px 32px}}
+@media(min-width:801px){.band{padding:20px 32px 32px}}
