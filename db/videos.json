@@ -26,11 +26,11 @@
   "title": "Live",
   "youtubeUrl": "https://www.youtube.com/watch?v=fSqEbENQlwU",
   "file": "",
-  "poster": "source-assets/old-site-videos/video_live_1.jpg",
+  "poster": "https://i.ytimg.com/vi/fSqEbENQlwU/hq3.jpg",
   "order": 3,
   "id": "video-3",
   "createdAt": "2026-11-02T16:01:04.513Z",
-  "updatedAt": "2026-11-02T18:45:32.868Z"
+  "updatedAt": "2026-11-02T19:27:51.721Z"
  },
  {
   "bandId": "band-stony-strings",
