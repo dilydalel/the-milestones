@@ -3,6 +3,8 @@
   "name": "the-milestones",
   "main": "worker/index.js",
   "compatibility_date": "2026-10-01",
+  // give the site its the-milestones.<subdomain>.workers.dev address
+  "workers_dev": true,
   "assets": {
     // public/, admin/ and assets/ are served as files; everything else is built by the worker
     "directory": ".",
