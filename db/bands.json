@@ -14,7 +14,15 @@
    "genre-funk",
    "genre-soul"
   ],
-  "instrumentIds": [],
+  "instrumentIds": [
+   "c1e32fa7c7",
+   "51e712cf5e",
+   "inst-saxophone",
+   "inst-keyboards",
+   "inst-guitar",
+   "inst-bass",
+   "inst-drums"
+  ],
   "songIds": [
    "song-59",
    "song-95",
@@ -107,7 +115,7 @@
   "shareImage": "",
   "id": "band-milestones",
   "createdAt": "2026-11-02T16:01:04.513Z",
-  "updatedAt": "2026-11-02T17:24:37.760Z"
+  "updatedAt": "2026-11-02T20:38:09.092Z"
  },
  {
   "name": "The Gemstones",
