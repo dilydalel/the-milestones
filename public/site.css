@@ -286,3 +286,4 @@ body.enq-open{overflow:hidden}
 .band-top .band-bio{max-width:none}
 /* home band boxes: smaller genre tags */
 .band .tags span{font-size:10px;padding:9px 12px}
+.band-side .instr ul{max-width:none}
