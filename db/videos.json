@@ -48,11 +48,11 @@
   "title": "DJ",
   "youtubeUrl": "https://www.youtube.com/watch?v=iMT9WWpZVZw",
   "file": "",
-  "poster": "source-assets/old-site-videos/milestones-dj-vid.jpg",
+  "poster": "https://i.ytimg.com/vi/iMT9WWpZVZw/maxres2.jpg",
   "order": 5,
   "id": "video-5",
   "createdAt": "2026-11-02T16:01:04.513Z",
-  "updatedAt": "2026-11-02T18:35:50.802Z"
+  "updatedAt": "2026-11-02T19:28:27.482Z"
  },
  {
   "bandId": "band-milestones",
