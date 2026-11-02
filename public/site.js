@@ -36,6 +36,26 @@
   });
 
   // ---------- testimonials slider (as on the FSQ site): no looping, arrows hide at the ends
+  // ---------- long quotes: "Read more" when they are cut to 4 lines
+  function checkMore() {
+    document.querySelectorAll('.quotes figure').forEach(function (f) {
+      var t = f.querySelector('.qtext'), b = f.querySelector('.qmore');
+      if (!t || !b || f.classList.contains('open')) return;
+      var lh = parseFloat(getComputedStyle(t).lineHeight) || 30; // the closing quote mark pokes out a little, so allow for it
+      b.hidden = t.scrollHeight <= t.clientHeight + lh * 0.6;
+    });
+  }
+  document.querySelectorAll('.qmore').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var f = b.closest('figure'), open = f.classList.toggle('open');
+      b.textContent = open ? 'Show less' : 'Read more';
+      if (!open) checkMore();
+    });
+  });
+  checkMore();
+  window.addEventListener('resize', checkMore);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(checkMore);
+
   document.querySelectorAll('.quotes').forEach(function (q) {
     var t = q.querySelector('.qtrack'), pv = q.querySelector('.qa.prev'), nx = q.querySelector('.qa.next');
     if (!t || !pv || !nx) return;
