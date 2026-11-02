@@ -278,3 +278,9 @@ body.enq-open{overflow:hidden}
 .qa{top:107px}
 .sec .qa{top:73px}
 @media(max-width:800px){.qa{top:91px}.sec .qa{top:67px}}
+/* band pages: photo on the right, the About text wraps underneath it when it is longer */
+.band-top{display:block}
+.band-top::after{content:"";display:block;clear:both}
+.band-side{float:right;width:calc(50% - 28px);margin:0 0 32px 56px;position:static}
+@media(max-width:800px){.band-top{display:flex;flex-direction:column;gap:0}.band-top::after{display:none}.band-side{order:2;float:none;width:auto;margin:40px 0 0}}
+.band-top .band-bio{max-width:none}
