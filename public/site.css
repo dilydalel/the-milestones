@@ -292,3 +292,8 @@ body.enq-open{overflow:hidden}
 /* contact details and Talk to us: normal text, not capitals */
 .info p{text-transform:none;letter-spacing:0;line-height:1.7;font-size:16px}
 .enq-body .info p{font-size:15px;line-height:1.7}
+/* booking form (contact page and enquiry panel): no capitals anywhere */
+.booking .caps,.enq-sheet .caps{text-transform:none;letter-spacing:0;font-size:15px}
+.field label,.field .opt,.field .flabel{text-transform:none;letter-spacing:0;font-size:15px}
+.chip span{text-transform:none;letter-spacing:0;font-size:15px;padding:14px 18px}
+.submit button{text-transform:none;letter-spacing:.02em;font-size:15px;font-weight:500}
