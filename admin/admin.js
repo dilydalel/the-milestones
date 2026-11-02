@@ -88,7 +88,7 @@
       if (!names.length) continue;
       box.append(h('h4', {}, g));
       for (const n of names) {
-        const href = SCHEMA[n].single ? '#/settings' : '#/c/' + n;
+        const href = n === 'settings' ? '#/settings' : '#/c/' + n;
         box.append(h('a', { class: 'item' + (n === activeColl ? ' active' : ''), href }, SCHEMA[n].label,
           n === 'enquiries' && status.newEnquiries ? h('span', { class: 'badge' }, status.newEnquiries) : null));
       }
@@ -108,6 +108,7 @@
     try {
       await ensureFresh();
       if (p[0] === 'c' && SCHEMA[p[1]] && p[2]) { await renderNav(p[1]); await editView(p[1], p[2] === 'new' ? null : p[2]); }
+      else if (p[0] === 'c' && SCHEMA[p[1]] && SCHEMA[p[1]].single) { await renderNav(p[1]); await editView(p[1], null); }
       else if (p[0] === 'c' && SCHEMA[p[1]]) { await renderNav(p[1]); await listView(p[1]); }
       else if (p[0] === 'settings') { await renderNav('settings'); await editView('settings', null); }
       else if (p[0] === 'users' && MODE === 'online') { await renderNav('__users'); await usersView(p[1]); }
@@ -644,7 +645,7 @@
     let viewLink = null;
     if (name === 'bands' && item.slug) viewLink = h('a', { class: 'btn', href: '/bands/' + item.slug, target: '_blank' }, 'View on site ↗');
     if (name === 'pages' && item.slug) viewLink = h('a', { class: 'btn', href: '/' + item.slug, target: '_blank' }, 'View on site ↗');
-    if (name === 'settings') viewLink = h('a', { class: 'btn', href: '/', target: '_blank' }, 'View on site ↗');
+    if (name === 'settings' || name === 'formText') viewLink = h('a', { class: 'btn', href: '/', target: '_blank' }, 'View on site ↗');
     const delBtn = isNew || c.single ? null : h('button', { class: 'danger', type: 'button', onclick: async () => {
       if (!confirm(`Delete this ${c.singular}? This cannot be undone here (a backup is kept).`)) return;
       try { await api('DELETE', `/api/c/${name}/${id}`); forget(name); dirty = false; toast('Deleted'); location.hash = '#/c/' + name; }
