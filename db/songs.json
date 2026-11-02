@@ -1,0 +1,1614 @@
+[
+ {
+  "id": "song-1",
+  "title": "ABC",
+  "artist": "Jackson 5",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-2",
+  "title": "Ain’t No Mountain High Enough",
+  "artist": "Marvin Gaye & Tammi Terrell",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-3",
+  "title": "Baby I Need Your Lovin",
+  "artist": "Four Tops",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-4",
+  "title": "Baby Love",
+  "artist": "The Supremes",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-5",
+  "title": "Can’t Help Myself (Sugar Pie Honey Bunch)",
+  "artist": "Four Tops",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-6",
+  "title": "Dancing In The Street",
+  "artist": "Martha and The Vandellas",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-7",
+  "title": "Endless Love",
+  "artist": "Diana Ross & Lionel Ritchie",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-8",
+  "title": "Higher Ground",
+  "artist": "Stevie Wonder",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown",
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-9",
+  "title": "How Sweet It Is (To Be Loved By You)",
+  "artist": "Marvin Gaye",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-10",
+  "title": "I Heard It Through The Grapevine",
+  "artist": "Marvin Gaye",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-11",
+  "title": "I Want You Back",
+  "artist": "Jackson 5",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-12",
+  "title": "I Wish",
+  "artist": "Stevie Wonder",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-13",
+  "title": "I’ll Be There",
+  "artist": "Jackson 5",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-14",
+  "title": "Let’s Get It On",
+  "artist": "Marvin Gaye",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-15",
+  "title": "My Girl",
+  "artist": "The Temptations",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-16",
+  "title": "Reach Out I’ll Be There",
+  "artist": "Four Tops",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-17",
+  "title": "Signed Sealed Delivered",
+  "artist": "Stevie Wonder",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-18",
+  "title": "Stop In The Name Of Love",
+  "artist": "The Supremes",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-19",
+  "title": "Tears Of A Clown",
+  "artist": "Smokey Robinson & The Miracles",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-20",
+  "title": "Tracks Of My Tears",
+  "artist": "Smokey Robinson & The Miracles",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-21",
+  "title": "What’s Going On",
+  "artist": "Marvin Gaye",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-22",
+  "title": "You Can’t Hurry Love",
+  "artist": "Supremes",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-23",
+  "title": "Your Love Keeps Lifting Me Higher",
+  "artist": "Jackie Wilson",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-motown"
+  ]
+ },
+ {
+  "id": "song-24",
+  "title": "Ain’t No Stoppin Us Now",
+  "artist": "Mc Fadden & Whitehead",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-25",
+  "title": "Blame It On The Boogie",
+  "artist": "The Jacksons",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-26",
+  "title": "Boogie Oogie Oogie",
+  "artist": "Taste Of Honey",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-27",
+  "title": "Car Wash",
+  "artist": "Rose Royce",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-28",
+  "title": "Disco Inferno",
+  "artist": "The Tramps",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-29",
+  "title": "Don’t Stop ‘Til You Get Enough",
+  "artist": "Michael Jackson",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-30",
+  "title": "Good Times",
+  "artist": "Chic",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-31",
+  "title": "I Will Survive",
+  "artist": "Gloria Gaynor",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-32",
+  "title": "I’m Coming Out",
+  "artist": "Diana Ross",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-33",
+  "title": "Le Freak",
+  "artist": "Chic",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-34",
+  "title": "Let’s Go Round Again",
+  "artist": "Average White Band",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco",
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-35",
+  "title": "Rock With You",
+  "artist": "Michael Jackson",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-36",
+  "title": "September",
+  "artist": "Earth Wind & Fire",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-37",
+  "title": "Shake Your Body Down To The Ground",
+  "artist": "The Jacksons",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-38",
+  "title": "Upside Down",
+  "artist": "Diana Ross",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-39",
+  "title": "Young Hearts Run Free",
+  "artist": "Candi Staton",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-disco"
+  ]
+ },
+ {
+  "id": "song-40",
+  "title": "All This Love That I’m Giving",
+  "artist": "Gwen McCrae",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-41",
+  "title": "Brick House",
+  "artist": "The Commodores",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-42",
+  "title": "Dance To The Music",
+  "artist": "Sly & The Family Stone",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-43",
+  "title": "Get Down On It",
+  "artist": "Kool & The Gang",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-44",
+  "title": "I Feel Good",
+  "artist": "James Brown",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-45",
+  "title": "I Got The Feeling",
+  "artist": "James Brown",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-46",
+  "title": "It’s Your Thing",
+  "artist": "Isley Brothers",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-47",
+  "title": "Jungle Boogie",
+  "artist": "Kool & The Gang",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-48",
+  "title": "Move On Up",
+  "artist": "Curtis Mayfield",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-49",
+  "title": "Mr Big Stuff",
+  "artist": "Jean Knight",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-50",
+  "title": "Papa Was A Rolling Stone",
+  "artist": "The Temptations",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-51",
+  "title": "Play That Funky Music",
+  "artist": "Wild Cherry",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-52",
+  "title": "Rock Steady",
+  "artist": "Aretha Franklin",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-53",
+  "title": "Sex Machine",
+  "artist": "James Brown",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-54",
+  "title": "Street Life",
+  "artist": "Randy Crawford",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-55",
+  "title": "Superstition",
+  "artist": "Stevie Wonder",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-funk"
+  ]
+ },
+ {
+  "id": "song-56",
+  "title": "Good as Hell",
+  "artist": "Lizzo",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-57",
+  "title": "Higher Love",
+  "artist": "Kygo & Whitney Houston",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-58",
+  "title": "Promises",
+  "artist": "Calvin Harris ft. Sam Smith",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-59",
+  "title": "All About The Bass",
+  "artist": "Meghan Trainor",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-60",
+  "title": "Blurred Lines",
+  "artist": "Robin Thicke",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-61",
+  "title": "Budapest",
+  "artist": "George Ezra",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-62",
+  "title": "Can’t Stop The Feeling",
+  "artist": "Justin Timberlake",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-63",
+  "title": "Feel It Still",
+  "artist": "Post Malone",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-64",
+  "title": "Forget You",
+  "artist": "Cee Lo Green",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-65",
+  "title": "For You",
+  "artist": "Payne/Ora",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-66",
+  "title": "Get Lucky",
+  "artist": "Daft Punk",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-67",
+  "title": "Happy",
+  "artist": "Pharrell Williams",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-68",
+  "title": "Havana",
+  "artist": "Camila Cabello",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-69",
+  "title": "Moves Like Jagger",
+  "artist": "Maroon 5",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-70",
+  "title": "Only Girl In The World",
+  "artist": "Rihanna",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-71",
+  "title": "Shake It Off",
+  "artist": "Taylor Swift",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-72",
+  "title": "Shape Of You",
+  "artist": "Ed Sheeran",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-73",
+  "title": "Thinking Out Loud",
+  "artist": "Ed Sheeran",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-74",
+  "title": "Treasure",
+  "artist": "Bruno Mars",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-75",
+  "title": "Uptown Funk",
+  "artist": "Ronson/Mars",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-chart-hits"
+  ]
+ },
+ {
+  "id": "song-76",
+  "title": "CC Rider",
+  "artist": "Elvis",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-rock-n-roll"
+  ]
+ },
+ {
+  "id": "song-77",
+  "title": "I Saw Her Standing There",
+  "artist": "The Beatles",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-rock-n-roll"
+  ]
+ },
+ {
+  "id": "song-78",
+  "title": "I’ve Got A Woman",
+  "artist": "Ray Charles",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-rock-n-roll"
+  ]
+ },
+ {
+  "id": "song-79",
+  "title": "Jailhouse Rock",
+  "artist": "Elvis",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-rock-n-roll"
+  ]
+ },
+ {
+  "id": "song-80",
+  "title": "Johnny B. Goode",
+  "artist": "Chuck Berry",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-rock-n-roll"
+  ]
+ },
+ {
+  "id": "song-81",
+  "title": "Never Can Tell",
+  "artist": "Chuck Berry",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-rock-n-roll"
+  ]
+ },
+ {
+  "id": "song-82",
+  "title": "Proud Mary",
+  "artist": "Ike & Tina Turner",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-rock-n-roll"
+  ]
+ },
+ {
+  "id": "song-83",
+  "title": "Route 66",
+  "artist": "",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-rock-n-roll"
+  ]
+ },
+ {
+  "id": "song-84",
+  "title": "Shake Rattle And Roll",
+  "artist": "Bill Haley & His Comets",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-rock-n-roll"
+  ]
+ },
+ {
+  "id": "song-85",
+  "title": "Twisting The Night Away",
+  "artist": "Sam Cooke",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-rock-n-roll"
+  ]
+ },
+ {
+  "id": "song-86",
+  "title": "Bashana",
+  "artist": "",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-jewish-hora"
+  ]
+ },
+ {
+  "id": "song-87",
+  "title": "Choson Kale Mazel Tov",
+  "artist": "",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-jewish-hora"
+  ]
+ },
+ {
+  "id": "song-88",
+  "title": "David Melech Yisrael",
+  "artist": "",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-jewish-hora"
+  ]
+ },
+ {
+  "id": "song-89",
+  "title": "Freylech",
+  "artist": "",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-jewish-hora"
+  ]
+ },
+ {
+  "id": "song-90",
+  "title": "Hatikiva (for toasts)",
+  "artist": "",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-jewish-hora"
+  ]
+ },
+ {
+  "id": "song-91",
+  "title": "Hava Nagila",
+  "artist": "",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-jewish-hora"
+  ]
+ },
+ {
+  "id": "song-92",
+  "title": "Sholom Aleichem",
+  "artist": "",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-jewish-hora"
+  ]
+ },
+ {
+  "id": "song-93",
+  "title": "Siman Tov",
+  "artist": "",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-jewish-hora"
+  ]
+ },
+ {
+  "id": "song-94",
+  "title": "Ufaratsta",
+  "artist": "",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-jewish-hora"
+  ]
+ },
+ {
+  "id": "song-95",
+  "title": "American Boy",
+  "artist": "Estelle",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-96",
+  "title": "Billie Jean",
+  "artist": "Michael Jackson",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-97",
+  "title": "Black And Gold",
+  "artist": "Sam Sparrow",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-98",
+  "title": "Can’t Get You Out Of My Head",
+  "artist": "Kylie Minogue",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-99",
+  "title": "Celebrate",
+  "artist": "Kool & The Gang",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-100",
+  "title": "Could You Be Loved",
+  "artist": "Bob Marley",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-101",
+  "title": "Crazy",
+  "artist": "Gnarls Barkley",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-102",
+  "title": "Crazy In Love",
+  "artist": "Beyonce",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-103",
+  "title": "Deja Vu",
+  "artist": "Beyonce",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-104",
+  "title": "Don’t Stop The Music",
+  "artist": "Rihanna",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-105",
+  "title": "Faith",
+  "artist": "George Michael",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-106",
+  "title": "Hey Ya",
+  "artist": "Outkast",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-107",
+  "title": "I Gotta Feeling",
+  "artist": "Black Eyed Peas",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-108",
+  "title": "Is This Love",
+  "artist": "Bob Marley",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-109",
+  "title": "I Wanna Dance With Somebody",
+  "artist": "Whitney Houston",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-110",
+  "title": "Killing Me Softly",
+  "artist": "The Fugees",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-111",
+  "title": "Kiss",
+  "artist": "Prince",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-112",
+  "title": "Mercy",
+  "artist": "Duffy",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-113",
+  "title": "Moondance",
+  "artist": "Van Morrison",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-114",
+  "title": "No Diggity",
+  "artist": "Blackstreet",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-115",
+  "title": "One Way Or Another",
+  "artist": "Blondie",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-116",
+  "title": "Poker Face",
+  "artist": "Lady Gaga",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-117",
+  "title": "Rehab",
+  "artist": "Amy Winehouse",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-118",
+  "title": "Rolling In The Deep",
+  "artist": "Adele",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-119",
+  "title": "Seven Nation Army",
+  "artist": "The White Stripes",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-120",
+  "title": "Shy Guy",
+  "artist": "Diana King",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-121",
+  "title": "Sing It Back",
+  "artist": "Moloko",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-122",
+  "title": "Single Ladies",
+  "artist": "Beyonce",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-123",
+  "title": "Teardrops",
+  "artist": "Womack And Womack",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-124",
+  "title": "The Way You Make Me Feel",
+  "artist": "Michael Jackson",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-125",
+  "title": "This Love",
+  "artist": "Maroon 5",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-126",
+  "title": "Toxic",
+  "artist": "Britney Spears",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-127",
+  "title": "Umbrella",
+  "artist": "Rihanna",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-128",
+  "title": "Valerie",
+  "artist": "Amy Winehouse",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-129",
+  "title": "Walk Like An Egyptian",
+  "artist": "Bangles",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-130",
+  "title": "Waterfalls",
+  "artist": "TLC",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-131",
+  "title": "Word Up",
+  "artist": "Cameo",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-132",
+  "title": "You Can Call Me Al",
+  "artist": "Paul Simon",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-133",
+  "title": "You Got The Love",
+  "artist": "Florence & The machine",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-pop"
+  ]
+ },
+ {
+  "id": "song-134",
+  "title": "Ain’t No Body",
+  "artist": "Chaka Khan",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-135",
+  "title": "Ain’t No Sunshine",
+  "artist": "Bill Withers",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-136",
+  "title": "All Night Long",
+  "artist": "Lionel Richie",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-137",
+  "title": "At Last",
+  "artist": "Etta James",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-138",
+  "title": "Chain Of Fools",
+  "artist": "Aretha Franklin",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-139",
+  "title": "Everybody Needs Somebody",
+  "artist": "Solomon Burke",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-140",
+  "title": "Feel Like Makin’ Love",
+  "artist": "Roberta Flack",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-141",
+  "title": "Give Me The Night",
+  "artist": "George Benson",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-142",
+  "title": "Hard To Handle",
+  "artist": "Otis Redding",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-143",
+  "title": "In The Midnight Hour",
+  "artist": "Wilson Pickett",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-144",
+  "title": "It’s A Shame",
+  "artist": "The Spinners",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-145",
+  "title": "I’m Every Woman",
+  "artist": "Whitney Houston version",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-146",
+  "title": "Knock On Wood",
+  "artist": "Eddie Floyd",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-147",
+  "title": "Let’s Stay Together",
+  "artist": "Al Green",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-148",
+  "title": "Lovely Day",
+  "artist": "Bill Withers",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-149",
+  "title": "Love Train",
+  "artist": "The O’Jays",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-150",
+  "title": "Midnight Hour",
+  "artist": "Wilson Pickett",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-151",
+  "title": "Mustang Sally",
+  "artist": "Wilson Pickett",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-152",
+  "title": "Natural Woman",
+  "artist": "Aretha Franklin",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-153",
+  "title": "Never Too Much",
+  "artist": "Luther Vandross",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-154",
+  "title": "Rescue Me",
+  "artist": "Fontella Bass",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-155",
+  "title": "Respect",
+  "artist": "Aretha Franklin",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-156",
+  "title": "Sittin On The Dock Of The Bay",
+  "artist": "Otis Redding",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-157",
+  "title": "Somebody Else’s Guy",
+  "artist": "Jocelyn Brown",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-158",
+  "title": "Something’s Got A Hold On Me",
+  "artist": "Etta James",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-159",
+  "title": "Soul Man",
+  "artist": "Sam & Dave",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-160",
+  "title": "Try A Little Tenderness",
+  "artist": "Otis Redding",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ },
+ {
+  "id": "song-161",
+  "title": "We Are Family",
+  "artist": "Sister Sledge",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z",
+  "genreIds": [
+   "genre-soul"
+  ]
+ }
+]

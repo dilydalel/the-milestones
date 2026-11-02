@@ -1,0 +1,162 @@
+[
+ {
+  "quote": "Just a quick note to say thank you to the Milestones for performing at our wedding. they were AMAZING! The dance floor was full right from the first dance to the last, they had everyone boogying the whole night long.\n\nI put my complete trust in the band and had only requested a couple of songs and they sure delivered. So many guests commented to us about how good the band were and how they had the dance floor full the whole time. The Milestones are such a friendly and talented group.\n\nThe whole process has been stress free and professional and we would like to thank the band and everyone involved for helping to make our wedding truly one to remember.",
+  "author": "Frances & Sam Keohane",
+  "bandId": "",
+  "show": false,
+  "order": 2,
+  "id": "quote-1",
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T17:39:17.016Z"
+ },
+ {
+  "id": "quote-2",
+  "quote": "You guys were outstanding and everyone danced and sang themselves into a kind of euphoric oblivion!",
+  "author": "Brian Murnin",
+  "bandId": "",
+  "show": true,
+  "order": 4,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-3",
+  "quote": "It was the best decision ever to book them.\n\nThey totally made our night and all our guests have commented on how fantastic they were!",
+  "author": "Kate McGowan",
+  "bandId": "",
+  "show": true,
+  "order": 5,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-4",
+  "quote": "A great night. Dance floor packed all evening.",
+  "author": "Coffee Trades Federation",
+  "bandId": "",
+  "show": true,
+  "order": 6,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-5",
+  "quote": "Superb music – please put the date in the diary again for next year.",
+  "author": "St. Georges Hill Lawn Tennis Club",
+  "bandId": "",
+  "show": true,
+  "order": 7,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-6",
+  "quote": "One of our most popular bands.",
+  "author": "Café Royal",
+  "bandId": "",
+  "show": true,
+  "order": 8,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-7",
+  "quote": "Thank you for the great music.",
+  "author": "Cummins Diesel",
+  "bandId": "",
+  "show": true,
+  "order": 9,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-8",
+  "quote": "Your contribution helped to make our night very special.",
+  "author": "Sea Containers",
+  "bandId": "",
+  "show": true,
+  "order": 10,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-9",
+  "quote": "In one word – AMAZING!\n\nI wanted to write a testimonial, so in just a few words… The Milestones were absolutely fantastic! From start to finish all our wedding guests were up dancing and can’t stop talking about the party and music!\n\nBy far they exceeded our expectations and completely made the party one to remember!",
+  "author": "Jessica & Marc",
+  "bandId": "",
+  "show": true,
+  "order": 11,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-10",
+  "quote": "The Milestones were fantastic – they blew us away with their music! They were every bit as professional and entertaining as I expected and were a lovely bunch of people too.\n\nI think they enjoyed themselves as much as we did!",
+  "author": "Andrew Carruthers",
+  "bandId": "",
+  "show": true,
+  "order": 12,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-11",
+  "quote": "We just wanted to say a huge thank you – you were extremely professional, ringing prior to the event to check a few details, setting up quickly and quietly on the day.\n\nYour performance was brilliant and had everyone up dancing. We loved the range of music, especially our chosen first dance.",
+  "author": "Hayley Wood",
+  "bandId": "",
+  "show": true,
+  "order": 13,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-12",
+  "quote": "You’ll always be our first call for any special event.",
+  "author": "Fraser Bell",
+  "bandId": "",
+  "show": true,
+  "order": 14,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-13",
+  "quote": "The best band we’ve had over from the UK.",
+  "author": "Credit Suisse",
+  "bandId": "",
+  "show": true,
+  "order": 3,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-14",
+  "quote": "Our most memorable Christmas party by far.",
+  "author": "easyJet",
+  "bandId": "",
+  "show": true,
+  "order": 15,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-15",
+  "quote": "A very professional outfit.",
+  "author": "British Telecom",
+  "bandId": "",
+  "show": true,
+  "order": 16,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "quote-16",
+  "quote": "One of our regular acts, always do a great job.",
+  "author": "Four Seasons Hotel",
+  "bandId": "",
+  "show": true,
+  "order": 1,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ }
+]

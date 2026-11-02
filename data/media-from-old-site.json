@@ -1,0 +1,193 @@
+{
+ "source": "https://themilestoneslive.com",
+ "note": "Titles for videos are guessed from file names (the old page has none). Video files are the old self-hosted MP4s; YouTube links to follow. Files saved locally: audio in assets/audio, gallery in assets/gallery, videos and posters in source-assets/old-site-videos.",
+ "tracks": [
+  {
+   "order": 1,
+   "title": "Your Love Keeps Lifting Me",
+   "file": "assets/audio/01-Your-Love-Keeps-Lifting-Me.mp3"
+  },
+  {
+   "order": 2,
+   "title": "Crazy in Love",
+   "file": "assets/audio/02-Crazy-in-Love.mp3"
+  },
+  {
+   "order": 3,
+   "title": "Le Freak",
+   "file": "assets/audio/03-Le-Freak.mp3"
+  },
+  {
+   "order": 4,
+   "title": "Proud Mary",
+   "file": "assets/audio/04-Proud-Mary.mp3"
+  },
+  {
+   "order": 5,
+   "title": "Sex on Fire",
+   "file": "assets/audio/05-Sex-on-Fire.mp3"
+  },
+  {
+   "order": 6,
+   "title": "Soul Man",
+   "file": "assets/audio/06-Soul-Man.mp3"
+  },
+  {
+   "order": 7,
+   "title": "You Got the Love",
+   "file": "assets/audio/07-You-Got-The-Love.mp3"
+  },
+  {
+   "order": 8,
+   "title": "Valerie",
+   "file": "assets/audio/08-Valerie.mp3"
+  }
+ ],
+ "videos": [
+  {
+   "order": 1,
+   "title": "Greatest Hits",
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones_GH_PALWS.mp4",
+   "file": "source-assets/old-site-videos/Milestones_GH_PALWS.mp4",
+   "poster": "source-assets/old-site-videos/video_greatest-hits2.png",
+   "youtube_url": ""
+  },
+  {
+   "order": 2,
+   "title": "2019",
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones2019.mp4",
+   "file": "source-assets/old-site-videos/Milestones2019.mp4",
+   "poster": "source-assets/old-site-videos/milestones2019vid.jpg",
+   "youtube_url": ""
+  },
+  {
+   "order": 3,
+   "title": "Live",
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones-Live-1.mp4",
+   "file": "source-assets/old-site-videos/Milestones-Live-1.mp4",
+   "poster": "source-assets/old-site-videos/video_live_1.jpg",
+   "youtube_url": ""
+  },
+  {
+   "order": 4,
+   "title": "Strings",
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones-Strings.mp4",
+   "file": "source-assets/old-site-videos/Milestones-Strings.mp4",
+   "poster": "source-assets/old-site-videos/milestones-strings-vid.jpg",
+   "youtube_url": ""
+  },
+  {
+   "order": 5,
+   "title": "DJ",
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones-DJ.mp4",
+   "file": "source-assets/old-site-videos/Milestones-DJ.mp4",
+   "poster": "source-assets/old-site-videos/milestones-dj-vid.jpg",
+   "youtube_url": ""
+  },
+  {
+   "order": 6,
+   "title": "Testimonials",
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones_Testimonials.mp4",
+   "file": "source-assets/old-site-videos/Milestones_Testimonials.mp4",
+   "poster": "source-assets/old-site-videos/video_testimonials.jpg",
+   "youtube_url": ""
+  }
+ ],
+ "gallery": [
+  {
+   "order": 1,
+   "caption": "",
+   "file": "assets/gallery/Gallery-IMG_9529.jpg"
+  },
+  {
+   "order": 2,
+   "caption": "",
+   "file": "assets/gallery/Gallery-IMG_9524.jpg"
+  },
+  {
+   "order": 3,
+   "caption": "",
+   "file": "assets/gallery/Gallery-IMG_2679.jpg"
+  },
+  {
+   "order": 4,
+   "caption": "",
+   "file": "assets/gallery/Gallery-IMG_7979.jpg"
+  },
+  {
+   "order": 5,
+   "caption": "",
+   "file": "assets/gallery/Gallery-IMG_6515.jpg"
+  },
+  {
+   "order": 6,
+   "caption": "",
+   "file": "assets/gallery/Gallery-Live-1.jpg"
+  },
+  {
+   "order": 7,
+   "caption": "",
+   "file": "assets/gallery/Gallery-IMG_9532.jpg"
+  },
+  {
+   "order": 8,
+   "caption": "",
+   "file": "assets/gallery/Gallery-Wedding-01.jpg"
+  },
+  {
+   "order": 9,
+   "caption": "",
+   "file": "assets/gallery/Gallery-IMG_8003.jpg"
+  },
+  {
+   "order": 10,
+   "caption": "",
+   "file": "assets/gallery/Gallery-IMG_7978.jpg"
+  },
+  {
+   "order": 11,
+   "caption": "",
+   "file": "assets/gallery/Gallery-IMG_2649.jpg"
+  },
+  {
+   "order": 12,
+   "caption": "",
+   "file": "assets/gallery/Gallery-Four-Pillars-Hotel_9.jpg"
+  },
+  {
+   "order": 13,
+   "caption": "",
+   "file": "assets/gallery/Gallery-Live-2.jpg"
+  },
+  {
+   "order": 14,
+   "caption": "",
+   "file": "assets/gallery/Gallery-Four-Seasons_3.jpg"
+  },
+  {
+   "order": 15,
+   "caption": "",
+   "file": "assets/gallery/Gallery-London_10.jpg"
+  },
+  {
+   "order": 16,
+   "caption": "",
+   "file": "assets/gallery/Gallery-London_5.jpg"
+  },
+  {
+   "order": 17,
+   "caption": "",
+   "file": "assets/gallery/Gallery-Wedding-02.jpg"
+  },
+  {
+   "order": 18,
+   "caption": "",
+   "file": "assets/gallery/Gallery-London_6.jpg"
+  },
+  {
+   "order": 19,
+   "caption": "",
+   "file": "assets/gallery/Gallery-London_7.jpg"
+  }
+ ]
+}

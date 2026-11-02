@@ -1,0 +1,102 @@
+{
+ "source": "https://themilestoneslive.com/ (Testimonials section)",
+ "note": "Each quote is just quote + author. 'band' is optional: empty means the quote applies to the whole site.",
+ "testimonials": [
+  {
+   "quote": "Just a quick note to say thank you to the Milestones for performing at our wedding. they were AMAZING! The dance floor was full right from the first dance to the last, they had everyone boogying the whole night long.\n\nI put my complete trust in the band and had only requested a couple of songs and they sure delivered. So many guests commented to us about how good the band were and how they had the dance floor full the whole time. The Milestones are such a friendly and talented group.\n\nThe whole process has been stress free and professional and we would like to thank the band and everyone involved for helping to make our wedding truly one to remember.",
+   "author": "Frances & Sam Keohane",
+   "order": 1,
+   "band": ""
+  },
+  {
+   "quote": "You guys were outstanding and everyone danced and sang themselves into a kind of euphoric oblivion!",
+   "author": "Brian Murnin",
+   "order": 2,
+   "band": ""
+  },
+  {
+   "quote": "It was the best decision ever to book them.\n\nThey totally made our night and all our guests have commented on how fantastic they were!",
+   "author": "Kate McGowan",
+   "order": 3,
+   "band": ""
+  },
+  {
+   "quote": "A great night. Dance floor packed all evening.",
+   "author": "Coffee Trades Federation",
+   "order": 4,
+   "band": ""
+  },
+  {
+   "quote": "Superb music – please put the date in the diary again for next year.",
+   "author": "St. Georges Hill Lawn Tennis Club",
+   "order": 5,
+   "band": ""
+  },
+  {
+   "quote": "One of our most popular bands.",
+   "author": "Café Royal",
+   "order": 6,
+   "band": ""
+  },
+  {
+   "quote": "Thank you for the great music.",
+   "author": "Cummins Diesel",
+   "order": 7,
+   "band": ""
+  },
+  {
+   "quote": "Your contribution helped to make our night very special.",
+   "author": "Sea Containers",
+   "order": 8,
+   "band": ""
+  },
+  {
+   "quote": "In one word – AMAZING!\n\nI wanted to write a testimonial, so in just a few words… The Milestones were absolutely fantastic! From start to finish all our wedding guests were up dancing and can’t stop talking about the party and music!\n\nBy far they exceeded our expectations and completely made the party one to remember!",
+   "author": "Jessica & Marc",
+   "order": 9,
+   "band": ""
+  },
+  {
+   "quote": "The Milestones were fantastic – they blew us away with their music! They were every bit as professional and entertaining as I expected and were a lovely bunch of people too.\n\nI think they enjoyed themselves as much as we did!",
+   "author": "Andrew Carruthers",
+   "order": 10,
+   "band": ""
+  },
+  {
+   "quote": "We just wanted to say a huge thank you – you were extremely professional, ringing prior to the event to check a few details, setting up quickly and quietly on the day.\n\nYour performance was brilliant and had everyone up dancing. We loved the range of music, especially our chosen first dance.",
+   "author": "Hayley Wood",
+   "order": 11,
+   "band": ""
+  },
+  {
+   "quote": "You’ll always be our first call for any special event.",
+   "author": "Fraser Bell",
+   "order": 12,
+   "band": ""
+  },
+  {
+   "quote": "The best band we’ve had over from the UK.",
+   "author": "Credit Suisse",
+   "order": 13,
+   "band": ""
+  },
+  {
+   "quote": "Our most memorable Christmas party by far.",
+   "author": "easyJet",
+   "order": 14,
+   "band": ""
+  },
+  {
+   "quote": "A very professional outfit.",
+   "author": "British Telecom",
+   "order": 15,
+   "band": ""
+  },
+  {
+   "quote": "One of our regular acts, always do a great job.",
+   "author": "Four Seasons Hotel",
+   "order": 16,
+   "band": ""
+  }
+ ]
+}

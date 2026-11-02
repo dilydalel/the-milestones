@@ -1,0 +1,61 @@
+{
+ "source": "https://themilestoneslive.com/wp-content/uploads/client_logos_full.svg (split into one file per client)",
+ "note": "Names read from the logos, to be checked. Logos are the grey versions used on the old site. logo is optional per client.",
+ "clients": [
+  {
+   "order": 1,
+   "name": "Natural History Museum",
+   "logo": "assets/clients/natural-history-museum.svg"
+  },
+  {
+   "order": 2,
+   "name": "BT",
+   "logo": "assets/clients/bt.svg"
+  },
+  {
+   "order": 3,
+   "name": "The Savoy",
+   "logo": "assets/clients/the-savoy.svg"
+  },
+  {
+   "order": 4,
+   "name": "Four Seasons",
+   "logo": "assets/clients/four-seasons.svg"
+  },
+  {
+   "order": 5,
+   "name": "Ascot",
+   "logo": "assets/clients/ascot.svg"
+  },
+  {
+   "order": 6,
+   "name": "Credit Suisse",
+   "logo": "assets/clients/credit-suisse.svg"
+  },
+  {
+   "order": 7,
+   "name": "easyJet",
+   "logo": "assets/clients/easyjet.svg"
+  },
+  {
+   "order": 8,
+   "name": "Café Royal",
+   "logo": "assets/clients/cafe-royal.svg"
+  },
+  {
+   "order": 9,
+   "name": "Royal Garden Hotel",
+   "logo": "assets/clients/royal-garden-hotel.svg"
+  },
+  {
+   "order": 10,
+   "name": "The Hurlingham Club",
+   "logo": "assets/clients/the-hurlingham-club.svg"
+  },
+  {
+   "order": 11,
+   "name": "The Langham",
+   "logo": "assets/clients/the-langham.svg"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "id": "menu-bands",
+  "label": "Bands",
+  "url": "/#bands",
+  "order": 1,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "menu-faq",
+  "label": "FAQ",
+  "url": "/faq",
+  "order": 2,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "menu-contact",
+  "label": "Contact",
+  "url": "/contact",
+  "order": 3,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ }
+]

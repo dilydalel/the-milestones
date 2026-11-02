@@ -1,0 +1,254 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter','Helvetica Neue',Arial,sans-serif;color:#111;background:#fff;-webkit-font-smoothing:antialiased;line-height:1.5}
+a{color:inherit}
+.serif{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif}
+.caps{font-size:11px;letter-spacing:.2em;text-transform:uppercase}
+.label{color:#8e1b1b}
+
+/* header */
+.site-header{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:24px 32px;z-index:5;position:relative}
+.site-header.on-hero,.site-header.on-dark{position:absolute;top:0;left:0;right:0;color:#fff}
+.site-header.light{border-bottom:1px solid #e6e4df}
+.logo{text-decoration:none;text-align:center;line-height:1;display:block;color:inherit}
+.logo b{display:block;font-weight:500;font-size:34px;letter-spacing:.16em;margin-right:-.16em}
+.logo i{display:block;font-style:normal;font-weight:500;font-size:13px;letter-spacing:.6em;margin:7px -.6em 0 0}
+.menu-btn{justify-self:end;background:none;border:0;color:inherit;font:inherit;cursor:pointer}
+.overlay{position:fixed;inset:0;background:#111;color:#fff;z-index:20;display:none;flex-direction:column;align-items:center;justify-content:center;gap:22px}
+.overlay.open{display:flex}
+.overlay a{color:#fff;text-decoration:none;font-size:clamp(30px,4vw,52px)}
+.overlay a:hover{opacity:.6}
+.overlay .close{position:absolute;top:28px;right:32px;background:none;border:0;color:#fff;font:inherit;cursor:pointer}
+
+/* hero */
+.hero{position:relative;height:82vh;min-height:520px;overflow:hidden;background:#000;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center}
+.hero video,.hero .hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.38)}
+.hero .copy{position:relative;z-index:2;padding:0 24px}
+.hero h1{font-weight:500;font-size:clamp(36px,5.4vw,76px);line-height:1.08;max-width:880px}
+.links{display:flex;gap:34px;justify-content:center;margin-top:34px;flex-wrap:wrap}
+.links a{text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:3px}
+.links.dark{justify-content:flex-start}
+
+.intro{max-width:760px;margin:0 auto;padding:44px 24px 44px;text-align:center}
+.intro p{font-size:clamp(26px,3vw,40px);line-height:1.25;font-weight:500}
+
+/* band grid */
+.bands{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #e6e4df;max-width:1200px;margin:0 auto}
+.band{display:block;padding:52px 48px 60px;text-decoration:none;color:#111;border-bottom:1px solid #e6e4df}
+.band:nth-child(odd){border-right:1px solid #e6e4df}
+.band h2{font-weight:500;font-size:clamp(34px,3.6vw,52px);line-height:1.05;margin:16px 0 14px}
+.band .tagline{display:block;margin-bottom:20px}
+.band:hover h2{text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}
+.tags{display:inline-flex;flex-wrap:wrap;padding:1px 0 0 1px;margin-bottom:-1px;position:relative}
+.tags span{border:1px solid #e0ddd6;padding:9px 16px;background:#fff;margin:-1px 0 0 -1px}
+.photo,.ph{width:100%;aspect-ratio:4/3;display:block;border:1px solid #e0ddd6;background:#f4f2ee}
+.photo{object-fit:cover}
+.ph{display:flex;align-items:center;justify-content:center;color:#a9a59b}
+
+/* quotes and clients */
+/* testimonials slider (copied from the FSQ site): 3 at a time, arrows top right, swipe; no looping */
+.quotes{position:relative;max-width:1200px;margin:0 auto;padding:64px 48px 80px}
+.sec .quotes{padding:46px 0 0;max-width:none}
+.qtrack{display:flex;gap:48px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;align-items:flex-start}
+.qtrack::-webkit-scrollbar{display:none}
+.qtrack figure{flex:0 0 calc((100% - 96px)/3);scroll-snap-align:start;padding-left:26px;position:relative}
+.quotes blockquote{position:relative;font-size:22px;line-height:1.35;font-weight:500}
+.quotes blockquote p+p{margin-top:12px}
+.quotes figcaption{margin-top:20px;color:#8e1b1b;padding-left:0}
+.qnav{position:absolute;top:14px;right:48px;display:flex;gap:8px}
+.sec .qnav{top:0;right:0}
+.qa{flex:none;width:34px;height:34px;border-radius:50%;border:1px solid #8e1b1b;background:#fff;color:#8e1b1b;font:400 22px/1 'Cormorant Garamond',Georgia,serif;cursor:pointer;padding:0 0 3px;display:flex;align-items:center;justify-content:center}
+.qa:hover{background:#8e1b1b;color:#fff}
+@media(max-width:800px){.quotes{padding:56px 24px 56px}.qnav{right:24px}.qtrack figure{flex-basis:100%}}
+.clients-sec{max-width:1200px;margin:0 auto;padding:44px 48px 90px;border-top:1px solid #e6e4df}
+.clients-sec h2{margin:0 0 32px;font-weight:500}
+.clients{display:flex;flex-wrap:wrap;gap:36px 56px;align-items:center;justify-content:center}
+.clients img{height:40px;max-width:150px;object-fit:contain}
+
+/* band page */
+.band-page main,.page{max-width:1200px;margin:0 auto}
+.band-top{display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:72px 48px;align-items:start}
+.band-bio{margin-top:18px;font-size:16px}
+.band-top .about-label{margin:0}
+.band-top h1+.about-label,.band-top .tagline+.about-label{margin-top:30px}
+.band-side{position:sticky;top:24px}
+.band-side .tags{display:flex}
+.band-hero{height:72vh;min-height:460px}
+.sound-btn{position:absolute;left:32px;bottom:28px;z-index:3;width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.7);color:#fff;cursor:pointer}
+.sound-btn:hover{background:rgba(0,0,0,.5)}
+.sound-btn .on{display:none}
+.sound-btn[aria-pressed=true] .on{display:block}
+.sound-btn[aria-pressed=true] .off{display:none}
+.band-hero .label{color:#fff;display:block;margin-bottom:14px}
+.band-hero .copy p{margin-top:14px}
+.band-page.has-hero main{max-width:none}
+.band-page.has-hero main>section:not(.band-hero){max-width:1200px;margin-left:auto;margin-right:auto}
+.band-top h2{font-weight:500;font-size:clamp(36px,4.4vw,60px);line-height:1;margin:0 0 18px}
+.band-top h1{font-weight:500;font-size:clamp(44px,6vw,84px);line-height:1;margin:16px 0}
+.band-top .tagline{margin-bottom:22px}
+.band-top .meta{margin-top:18px;color:#555}
+.band-top .links{margin-top:30px}
+.instr{margin-top:26px}
+.instr ul{list-style:none;margin-top:10px;font-size:15px;max-width:420px}
+.instr li{padding:5px 0;border-bottom:1px solid #eeece8;break-inside:avoid}
+.band-photo{width:100%;border:1px solid #e0ddd6}
+.sec{padding:56px 48px;border-top:1px solid #e6e4df}
+.sec>h2{margin-bottom:28px}
+.prose{max-width:760px;font-size:17px}
+.prose p+p{margin-top:14px}
+.videos{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.videos figcaption{margin-top:10px}
+.ratio{position:relative;aspect-ratio:16/9;background:#000}
+.ratio iframe,.ratio video{position:absolute;inset:0;width:100%;height:100%;border:0}
+.tracks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:18px 40px}
+.tracks li{display:flex;flex-direction:column;gap:8px}
+.tracks .serif{font-size:22px}
+.tracks audio{width:100%}
+.gallery{columns:3;column-gap:16px}
+.gallery figure{break-inside:avoid;margin-bottom:16px}
+.gallery img{width:100%;display:block}
+.gallery figcaption{font-size:13px;color:#555;margin-top:6px}
+.rep{columns:3;column-gap:40px}
+.rep-group{break-inside:avoid;margin-bottom:28px}
+.rep h3{font-size:26px;font-weight:500;margin-bottom:8px}
+.rep ul{list-style:none;font-size:14px}
+.rep li{padding:3px 0}
+.rep li span{color:#888}
+.cta{text-align:center;padding:80px 24px;border-top:1px solid #e6e4df}
+.cta a{font-size:clamp(28px,3.4vw,46px);text-decoration:none;border-bottom:1px solid #111}
+
+/* faq and pages */
+.page{padding:72px 48px 96px;max-width:900px}
+.page h1{font-weight:500;font-size:clamp(40px,5vw,64px);line-height:1.05;margin-bottom:36px}
+.faqs details{border-top:1px solid #e6e4df;padding:20px 0}
+.faqs details:last-child{border-bottom:1px solid #e6e4df}
+.faqs summary{font-size:26px;font-weight:500;cursor:pointer;list-style:none}
+.faqs summary::-webkit-details-marker{display:none}
+.faqs summary::after{content:"+";float:right;font-family:Inter,Arial,sans-serif;font-weight:300}
+.faqs details[open] summary::after{content:"\2013"}
+.faqs .prose{margin-top:14px}
+
+/* booking */
+.contact-page{background:#1f1f1f;color:#fff}
+.booking{position:relative;overflow:hidden;padding-top:110px}
+.booking::before{content:"";position:absolute;inset:-40px;background:url(/assets/hero-poster-gh.jpg) center/cover;filter:blur(40px) brightness(.55)}
+.booking::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(31,31,31,0) 0,#1f1f1f 85%)}
+.booking .inner{position:relative;z-index:2;max-width:1440px;margin:0 auto;padding:40px 96px 96px}
+.booking .label{color:#d4473d}
+.info{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid rgba(255,255,255,.18);padding-bottom:56px}
+.info>div{padding-right:40px}
+.info>div+div{border-left:1px solid rgba(255,255,255,.18);padding-left:56px}
+.info p{margin-top:22px;line-height:2.1;letter-spacing:.2em;text-transform:uppercase;font-size:15px}
+.info a{text-decoration:none}
+.info p+.label{margin-top:34px}
+.booking h2.label{margin:56px 0 36px}
+#booking{display:grid;grid-template-columns:1fr 1fr;gap:34px 56px}
+.field{display:flex;flex-direction:column;gap:14px}
+.field .row{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}
+.field label,.field .opt{font-size:14px;letter-spacing:.24em;text-transform:uppercase}
+.field .opt{color:#9a9a9a}
+.field .flabel{font-size:14px;letter-spacing:.24em;text-transform:uppercase}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{position:relative}
+.field .chip input{position:absolute;left:0;top:0;opacity:0;width:1px;height:1px;padding:0;border:0;pointer-events:none}
+.chip span{display:inline-block;border:1px solid #8d8d8d;background:rgba(0,0,0,.18);padding:16px 18px;font-size:13px;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;user-select:none}
+.chip span:hover{border-color:#fff}
+.chip input:checked+span{background:#fff;color:#111;border-color:#fff}
+.chip input:focus-visible+span{outline:2px solid #d4473d;outline-offset:2px}
+.field input,.field select,.field textarea{background:rgba(0,0,0,.18);border:1px solid #8d8d8d;color:#fff;font:inherit;font-size:17px;padding:0 22px;height:56px;border-radius:0;width:100%;letter-spacing:.04em}
+.field select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,#fff 50%),linear-gradient(135deg,#fff 50%,transparent 50%);background-position:calc(100% - 26px) 24px,calc(100% - 20px) 24px;background-size:6px 6px;background-repeat:no-repeat}
+.field select option{color:#111}
+.field textarea{height:190px;padding:18px 22px;resize:vertical}
+.field input::placeholder{color:#7a7a7a}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:#fff}
+.field.invalid input,.field.invalid select,.field.invalid textarea{border-color:#e07a6a}
+.full,.submit,.error{grid-column:1/-1}
+.error{color:#f0a090;min-height:1em}
+.submit button{background:#fff;color:#111;border:0;padding:18px 44px;font:inherit;font-size:13px;letter-spacing:.24em;text-transform:uppercase;cursor:pointer}
+.submit button:disabled{opacity:.5}
+.thanks{grid-column:1/-1;font-size:36px;line-height:1.2}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+/* footer */
+.site-footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:32px 48px;border-top:1px solid #e6e4df;color:#666}
+.site-footer a{text-decoration:none}
+.site-footer .social{display:flex;gap:24px}
+.contact-page .site-footer{border-color:rgba(255,255,255,.15);color:#aaa}
+
+@media(max-width:800px){
+  .bands,.band-top,.videos,.tracks,.info,#booking{grid-template-columns:1fr}
+  .band:nth-child(odd){border-right:0}
+  .band{padding:40px 24px}
+  .band-top,.sec,.page{padding-left:24px;padding-right:24px}
+  .gallery,.rep{columns:1}
+  .booking .inner{padding:32px 24px 64px}
+  .info>div+div{border-left:0;padding:36px 0 0}
+  .site-header{padding:20px}
+  .logo b{font-size:26px}
+}
+
+/* enquiry basket: bar at the bottom, sheet slides up over the page */
+body.has-enq{padding-bottom:56px}
+body.enq-open{overflow:hidden}
+.enq-dock{position:fixed;left:0;right:0;bottom:0;z-index:15;height:56px;display:flex;gap:14px;align-items:center;justify-content:center;background:#111;color:#fff;border:0;border-top:1px solid rgba(255,255,255,.12);font:inherit;font-size:11px;letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
+.enq-dock:hover{background:#000}
+.enq-dock:hover .enq-dock-label{text-decoration:underline;text-underline-offset:4px}
+.enq-count{color:#e05a4f}
+.enq-count:empty{display:none}
+.enq-count::before{content:"\00b7";margin-right:14px;color:#888}
+.enq-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:16}
+.enq-sheet{position:fixed;left:0;right:0;bottom:0;max-height:92vh;overflow:auto;background:#1f1f1f;color:#fff;z-index:17;transform:translateY(100%);visibility:hidden;transition:transform .35s ease,visibility 0s linear .35s;box-shadow:0 -10px 40px rgba(0,0,0,.35)}
+.enq-sheet.open{transform:none;visibility:visible;transition:transform .35s ease}
+.enq-head{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:22px 48px;background:#1f1f1f;border-bottom:1px solid rgba(255,255,255,.12)}
+.enq-head h2{margin:0;color:#d4473d}
+.enq-close{background:none;border:0;color:#fff;font:inherit;font-size:11px;letter-spacing:.2em;cursor:pointer}
+.enq-body{max-width:1200px;margin:0 auto;padding:36px 48px 56px}
+.enq-body .info{padding-bottom:32px;margin-bottom:40px}
+.enq-body .info p{font-size:13px;line-height:1.9}
+.enq-body .thanks{padding:40px 0}
+@media(max-width:800px){.enq-head{padding:18px 20px}.enq-body{padding:24px 20px 48px}}
+.info p{overflow-wrap:anywhere}
+.enq-body .label{color:#d4473d}
+
+/* everything over a hero video stays white */
+.hero,.hero .label,.hero a,.hero p,.hero h1{color:#fff}
+.home-video{max-width:1000px;margin:0 auto;padding:0 48px}
+.home-video figcaption{display:none}
+@media(max-width:800px){.home-video{padding:0 24px}}
+/* home page hero: a banner, a little shorter than before */
+.home .hero{height:70vh;min-height:440px}
+.home-sec-title{text-align:center;margin:0;padding:80px 24px 28px;font-weight:500}
+/* quote marks as on the FSQ site: opening mark hangs in the margin, closing mark follows the last word */
+.quotes blockquote::before{content:"\201C";position:absolute;left:-26px;top:-.12em;font:600 2.1em/1 'Cormorant Garamond',Georgia,serif;color:#8e1b1b}
+.quotes blockquote p:last-child::after{content:"\201D";font:600 1.9em/0 'Cormorant Garamond',Georgia,serif;color:#8e1b1b;margin-left:.08em;vertical-align:-.24em}
+/* home band boxes: photos line up across each row, whatever the text above them */
+.bands .band{display:flex;flex-direction:column}
+.bands .band>*{flex:none}
+.bands .band .tags{align-self:flex-start}
+.bands .band .photo,.bands .band .ph{margin-top:auto}
+.bands .band .tags+.photo,.bands .band .tags+.ph{margin-top:auto}
+/* home testimonials heading: left, just under the line above (same layout as band page sections) */
+.home-sec-title{text-align:left;max-width:1200px;margin:0 auto;padding:44px 48px 24px}
+.home-video{max-width:1200px;padding:0 48px}
+.home-video figure{max-width:1000px}
+@media(max-width:800px){.home-sec-title{padding:36px 24px 20px}.home-video{padding:0 24px}}
+@media(max-width:800px){.clients-sec{padding:36px 24px 64px}}
+/* slider arrows: left arrow on the left, right arrow on the right, vertically centred */
+.qnav{position:static;display:contents}
+.quotes{padding-left:64px;padding-right:64px}
+.sec .quotes{padding:30px 48px 0}
+.qa{position:absolute;top:50%;transform:translateY(-50%);z-index:2}
+.qa.prev{left:12px}
+.qa.next{right:12px}
+.sec .qa.prev{left:0}
+.sec .qa.next{right:0}
+@media(max-width:800px){.quotes{padding-left:48px;padding-right:48px}.qa.prev{left:6px}.qa.next{right:6px}.sec .quotes{padding:24px 40px 0}}
+.quotes{padding-top:64px;padding-bottom:64px}
+@media(max-width:800px){.quotes{padding-top:48px;padding-bottom:48px}}
+/* fixed height, arrows fixed beside the first lines of the quotes (they no longer move) */
+.qa{top:150px;transform:none}
+.sec .qa{top:110px}
+@media(max-width:800px){.qa{top:130px}.sec .qa{top:100px}}
+/* genre tags move down together with the photo */
+.bands .band .tags{margin-top:auto}
+.bands .band .tags+.photo,.bands .band .tags+.ph{margin-top:0}

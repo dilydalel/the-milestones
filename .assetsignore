@@ -1,0 +1,5 @@
+# Only public/, admin/ and assets/ are published as files. Everything else stays private.
+/*
+!/public
+!/admin
+!/assets

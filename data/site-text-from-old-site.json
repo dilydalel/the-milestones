@@ -1,0 +1,124 @@
+{
+ "source": "https://themilestoneslive.com",
+ "note": "Site-wide text and settings as found on the old site. Email address was hidden by WordPress and decoded.",
+ "settings": {
+  "contact_email": "themilestones@themilestoneslive.com",
+  "facebook": "https://facebook.com/themilestoneslive",
+  "instagram": "https://instagram.com/themilestoneslive",
+  "youtube": "https://www.youtube.com/channel/UClu_8rqHgTRm8WI4jrJzG8w",
+  "insurance_verify_url": "https://ampband.co.uk/verify3.php?MN=68226",
+  "footer_copyright": ""
+ },
+ "blocks": [
+  {
+   "key": "watch_title",
+   "text": "The Milestones"
+  },
+  {
+   "key": "watch_intro",
+   "text": "The Milestones are a collective of musicians who bring high-end sensibilities to one of the UK’s most exciting function and event bands. They provide a perfect mix of Motown, chart hits, soul and funk with the pedigree to ensure an authentic experience for your event."
+  },
+  {
+   "key": "watch_worked_with",
+   "text": "Collectively the band have performed with a remarkable array of revered artists including Tina Turner, David Bowie, Prince, The Crusaders, Roy Ayers, Nile Rogers, Stevie Wonder, Jamiroquai, Beverley Knight and many more."
+  },
+  {
+   "key": "extra_services",
+   "text": "Need that little something extra to provide the finishing touch to your event..? How about a string quartet for your wedding ceremony or some mellow background jazz for the drinks reception? Or maybe one of our amazing DJ’s could make the end of your night one you and your guests will never forget. We can offer all these bespoke musical services, tailored just for you. Check out some of the options below and don’t hesitate to ask if there’s something else you’re looking for!"
+  },
+  {
+   "key": "insurance_line",
+   "text": "You can click here to confirm THE MILESTONES have valid Public Liability Insurance with The Alliance of Musicians & Performers (AMPband)."
+  },
+  {
+   "key": "contact_title",
+   "text": "LET’S TALK…"
+  },
+  {
+   "key": "contact_intro",
+   "text": "Email us at [email protected] or use the form below to send us a message to find out what we can do for your event. Please include your name, email, contact number and event date and we will get back to you as soon as possible."
+  },
+  {
+   "key": "listen_title",
+   "text": "Listen to The Milestones"
+  }
+ ],
+ "contact_form_fields": [
+  "Name",
+  "Email Address",
+  "Phone",
+  "Event Date (dd/mm/yyyy)",
+  "Message"
+ ],
+ "contact_form_button": "Send",
+ "privacy_policy": {
+  "title": "Cookies and Privacy Policy",
+  "paragraphs": [
+   "Who We Are",
+   "We are The Milestones our business address is:",
+   "The Milestones",
+   "22 Dickinson Court",
+   "15 Brewhouse Yard",
+   "London",
+   "EC1V4JX",
+   "Your Personal Data",
+   "We respect the privacy concerns of our customers and other visitors to our website. We understand that we are responsible for Personal Information under our control. By visiting themilestoneslive.com, you are accepting the practices described in this Privacy Policy.",
+   "Information We Collect",
+   "For each visitor to this website, our web server automatically recognises non-individual data only, but not Personal Information (wherever possible). We use this information to optimise the site and to diagnose problems.",
+   "How We Use This Information",
+   "If you use the Contact form to request a quote or further details, we will only use this information to reply to your enquiry and to provide relevant information to you. We use the Google reCaptcha service to protect our site from spammers. Please refer to Google’s privacy policy here and their terms of service here.",
+   "Web Analytics",
+   "In order to serve you better, we use web analytics services including Google Analytics to help analyse the use of our website. These tools use cookies to collect and generate information about your visits to our site (including your IP address) that is transmitted to their servers in an anonymous form for processing. We study patterns of website activity so we can improve the experience of visitors to our site.",
+   "The use of these tools does not allow us or our analytics service providers to identify individuals.",
+   "We have also implemented some features of Google’s Display Advertising functionality including Remarketing and Google Analytics Demographics and Interest Reporting. We and third-party vendors, including Google, use both first-party cookies and third-party cookies together to report ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to this site.",
+   "You can opt-out of analytics activity by setting your browser to notify you when a cookie is sent and block analytics cookies if desired. Please consult your browser’s Help Menu for instructions. Visiting themilestoneslive.com with analytics cookies disabled will have no significant impact on your experience.",
+   "Google currently offers a free Google Analytics opt-out tool for Internet Explorer (versions 7 – 10), Google Chrome (4.x and higher), and Mozilla Firefox (3.5 and higher).",
+   "All about cookies",
+   "We use cookies to help provide you with the best experience from our website. Without them, our website might not work perfectly for you.",
+   "We think they’re a good idea, but it’s up to you whether you allow them or not.",
+   "What are cookies?",
+   "Cookies are small text files saved to your computer when you visit websites. Our cookies don’t contain any personal data and are used only on vintagetrainsevents.co.uk.",
+   "If you decide you don’t want cookies, you’ll need to block them in your browser settings.",
+   "Cookies: It’s your choice",
+   "Why should I allow cookies?",
+   "We use cookies to enable the normal operation of the site. For example, we use cookies for the following things:",
+   "remembering choices you have made during your visit",
+   "analytics to help us improve the site",
+   "We do not collect, store or process any personal or individual user identifiable information using cookies.",
+   "What if I block cookies?",
+   "If you decide to block cookies, you won’t get the best experience from our site. Some features may not work at all and others may be limited.",
+   "Remember, cookies do not store any personal information, but if you still really want to block cookies, follow the instructions below for your browser.",
+   "How can I block or allow cookies?",
+   "Google Chrome",
+   "Click on the Settings cog icon (top right).",
+   "Click on Internet Options.",
+   "Click on Privacy and choose your options.",
+   "Click Apply and then OK.",
+   "Firefox",
+   "Click tools from the main task bar, then options.",
+   "Click the Privacy tab.",
+   "Choose the settings you want.",
+   "Click OK.",
+   "Safari",
+   "Click on the Settings cog icon (top right).",
+   "Click on Internet Options.",
+   "Click on Privacy and choose your options.",
+   "Click Apply and then OK.",
+   "Internet Explorer",
+   "Click on the Settings cog icon (top right).",
+   "Click on Internet Options.",
+   "Click on Privacy and choose your options.",
+   "Click Apply and then OK.",
+   "IOS",
+   "From the homescreen, choose Settings.",
+   "Select Safari.",
+   "Click Accept Cookies.",
+   "Choose your preferred settings.",
+   "Android",
+   "Start the browser application.",
+   "Click the Menu button.",
+   "Select the More option, then Settings.",
+   "Tick or clear Accept cookies."
+  ]
+ }
+}

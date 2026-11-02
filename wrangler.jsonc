@@ -1,0 +1,25 @@
+{
+  // Cloudflare settings for the Milestones Music website.
+  "name": "the-milestones",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    // public/, admin/ and assets/ are served as files; everything else is built by the worker
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*", "/media/*"]
+  },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "milestones" }
+  ],
+  "r2_buckets": [
+    { "binding": "MEDIA", "bucket_name": "milestones-media" }
+  ],
+  "vars": {
+    "REPO": "dilydalel/the-milestones",
+    "BRANCH": "main",
+    // the "from" address for enquiry emails, once email sending is set up (see README-ONLINE.md)
+    "MAIL_FROM": ""
+  },
+  "observability": { "enabled": true }
+}

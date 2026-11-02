@@ -1,0 +1,72 @@
+[
+ {
+  "id": "genre-motown",
+  "name": "Motown",
+  "order": 1,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "genre-disco",
+  "name": "Disco",
+  "order": 2,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "genre-funk",
+  "name": "Funk",
+  "order": 3,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "genre-soul",
+  "name": "Soul",
+  "order": 4,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "genre-pop",
+  "name": "Pop",
+  "order": 5,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "genre-classical",
+  "name": "Classical",
+  "order": 6,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "name": "Jazz",
+  "order": 7,
+  "id": "950e5a579d",
+  "createdAt": "2026-11-02T16:10:57.946Z",
+  "updatedAt": "2026-11-02T16:11:12.915Z"
+ },
+ {
+  "id": "genre-chart-hits",
+  "name": "Chart Hits",
+  "order": 8,
+  "createdAt": "2026-11-02T16:43:41.435Z",
+  "updatedAt": "2026-11-02T16:43:41.435Z"
+ },
+ {
+  "id": "genre-rock-n-roll",
+  "name": "Rock 'n' Roll",
+  "order": 9,
+  "createdAt": "2026-11-02T16:43:41.435Z",
+  "updatedAt": "2026-11-02T16:43:41.435Z"
+ },
+ {
+  "id": "genre-jewish-hora",
+  "name": "Jewish Hora",
+  "order": 10,
+  "createdAt": "2026-11-02T16:43:41.435Z",
+  "updatedAt": "2026-11-02T16:43:41.435Z"
+ }
+]

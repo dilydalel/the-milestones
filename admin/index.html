@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin · Milestones Music</title>
+<link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <aside id="nav">
+    <a class="brand" href="#/">Milestones Music<span>Admin</span></a>
+    <div id="nav-links"></div>
+    <a class="viewsite" href="/" target="_blank">View website ↗</a>
+  </aside>
+  <main id="view"><p class="muted">Loading…</p></main>
+  <div id="toast" role="status"></div>
+  <dialog id="picker">
+    <div class="picker-head">
+      <strong id="picker-title">Choose a file</strong>
+      <input id="picker-search" type="search" placeholder="Search files">
+      <button type="button" id="picker-close">Close</button>
+    </div>
+    <div id="picker-list"></div>
+  </dialog>
+  <script src="/admin/admin.js"></script>
+</body>
+</html>

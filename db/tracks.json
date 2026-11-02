@@ -1,0 +1,74 @@
+[
+ {
+  "id": "track-1",
+  "bandId": "band-milestones",
+  "title": "Your Love Keeps Lifting Me",
+  "file": "assets/audio/01-Your-Love-Keeps-Lifting-Me.mp3",
+  "order": 1,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "track-2",
+  "bandId": "band-milestones",
+  "title": "Crazy in Love",
+  "file": "assets/audio/02-Crazy-in-Love.mp3",
+  "order": 2,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "track-3",
+  "bandId": "band-milestones",
+  "title": "Le Freak",
+  "file": "assets/audio/03-Le-Freak.mp3",
+  "order": 3,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "track-4",
+  "bandId": "band-milestones",
+  "title": "Proud Mary",
+  "file": "assets/audio/04-Proud-Mary.mp3",
+  "order": 4,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "track-5",
+  "bandId": "band-milestones",
+  "title": "Sex on Fire",
+  "file": "assets/audio/05-Sex-on-Fire.mp3",
+  "order": 5,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "track-6",
+  "bandId": "band-milestones",
+  "title": "Soul Man",
+  "file": "assets/audio/06-Soul-Man.mp3",
+  "order": 6,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "track-7",
+  "bandId": "band-milestones",
+  "title": "You Got the Love",
+  "file": "assets/audio/07-You-Got-The-Love.mp3",
+  "order": 7,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "track-8",
+  "bandId": "band-milestones",
+  "title": "Valerie",
+  "file": "assets/audio/08-Valerie.mp3",
+  "order": 8,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ }
+]

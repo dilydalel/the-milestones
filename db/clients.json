@@ -1,0 +1,101 @@
+[
+ {
+  "id": "client-1",
+  "name": "Natural History Museum",
+  "logo": "assets/clients/natural-history-museum.svg",
+  "show": true,
+  "order": 1,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "client-2",
+  "name": "BT",
+  "logo": "assets/clients/bt.svg",
+  "show": true,
+  "order": 2,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "client-3",
+  "name": "The Savoy",
+  "logo": "assets/clients/the-savoy.svg",
+  "show": true,
+  "order": 3,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "client-4",
+  "name": "Four Seasons",
+  "logo": "assets/clients/four-seasons.svg",
+  "show": true,
+  "order": 4,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "client-5",
+  "name": "Ascot",
+  "logo": "assets/clients/ascot.svg",
+  "show": true,
+  "order": 5,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "client-6",
+  "name": "Credit Suisse",
+  "logo": "assets/clients/credit-suisse.svg",
+  "show": true,
+  "order": 6,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "client-7",
+  "name": "easyJet",
+  "logo": "assets/clients/easyjet.svg",
+  "show": true,
+  "order": 7,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "client-8",
+  "name": "Café Royal",
+  "logo": "assets/clients/cafe-royal.svg",
+  "show": true,
+  "order": 8,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "client-9",
+  "name": "Royal Garden Hotel",
+  "logo": "assets/clients/royal-garden-hotel.svg",
+  "show": true,
+  "order": 9,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "client-10",
+  "name": "The Hurlingham Club",
+  "logo": "assets/clients/the-hurlingham-club.svg",
+  "show": true,
+  "order": 10,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ },
+ {
+  "id": "client-11",
+  "name": "The Langham",
+  "logo": "assets/clients/the-langham.svg",
+  "show": true,
+  "order": 11,
+  "createdAt": "2026-11-02T16:01:04.513Z",
+  "updatedAt": "2026-11-02T16:01:04.513Z"
+ }
+]

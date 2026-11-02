@@ -1,0 +1,406 @@
+{
+ "source": "https://themilestoneslive.com/ media library (WordPress REST API)",
+ "note": "Every image in the old media library except logos, site icons and video posters. Gallery-* are in assets/gallery, all others in assets/photos. used_on_old_site=false means uploaded but not found on the home or FAQ page. Captions and photographer credits are not available.",
+ "photos": [
+  {
+   "file": "assets/gallery/Gallery-1.jpg",
+   "width": 960,
+   "height": 721,
+   "bytes": 83614,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-1.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-Four-Pillars-Hotel_9.jpg",
+   "width": 600,
+   "height": 902,
+   "bytes": 83491,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-Four-Pillars-Hotel_9.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-Four-Seasons_3.jpg",
+   "width": 600,
+   "height": 400,
+   "bytes": 47930,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-Four-Seasons_3.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_2649.jpg",
+   "width": 598,
+   "height": 801,
+   "bytes": 151097,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_2649.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_2679.jpg",
+   "width": 598,
+   "height": 801,
+   "bytes": 136943,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_2679.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_6515.jpg",
+   "width": 800,
+   "height": 533,
+   "bytes": 110843,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_6515.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_7905.jpg",
+   "width": 800,
+   "height": 800,
+   "bytes": 138987,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_7905.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_7978.jpg",
+   "width": 1067,
+   "height": 600,
+   "bytes": 168152,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_7978.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_7979.jpg",
+   "width": 800,
+   "height": 800,
+   "bytes": 210001,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_7979.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_8003.jpg",
+   "width": 800,
+   "height": 533,
+   "bytes": 99241,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_8003.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_9513.jpg",
+   "width": 800,
+   "height": 533,
+   "bytes": 252405,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_9513.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_9524.jpg",
+   "width": 800,
+   "height": 533,
+   "bytes": 566241,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_9524.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_9529.jpg",
+   "width": 800,
+   "height": 533,
+   "bytes": 311155,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_9529.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-IMG_9532.jpg",
+   "width": 533,
+   "height": 800,
+   "bytes": 284329,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-IMG_9532.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-Live-1.jpg",
+   "width": 797,
+   "height": 501,
+   "bytes": 145631,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-Live-1.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-Live-2.jpg",
+   "width": 775,
+   "height": 451,
+   "bytes": 123492,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-Live-2.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-London_10.jpg",
+   "width": 600,
+   "height": 400,
+   "bytes": 48787,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-London_10.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-London_5.jpg",
+   "width": 600,
+   "height": 400,
+   "bytes": 53110,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-London_5.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-London_6.jpg",
+   "width": 600,
+   "height": 900,
+   "bytes": 61099,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-London_6.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-London_7.jpg",
+   "width": 600,
+   "height": 400,
+   "bytes": 37975,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-London_7.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-Wedding-01.jpg",
+   "width": 540,
+   "height": 360,
+   "bytes": 125689,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-Wedding-01.jpg"
+  },
+  {
+   "file": "assets/gallery/Gallery-Wedding-02.jpg",
+   "width": 540,
+   "height": 360,
+   "bytes": 132637,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Gallery-Wedding-02.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones0148sc.jpg",
+   "width": 319,
+   "height": 600,
+   "bytes": 38663,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones0148sc.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones0238sc.jpg",
+   "width": 344,
+   "height": 601,
+   "bytes": 28821,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones0238sc.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones0343sc.jpg",
+   "width": 219,
+   "height": 601,
+   "bytes": 27517,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones0343sc.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones035sc.jpg",
+   "width": 281,
+   "height": 601,
+   "bytes": 28155,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones035sc.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones0513sc3.jpg",
+   "width": 250,
+   "height": 800,
+   "bytes": 45418,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones0513sc3.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones0588vid3.jpg",
+   "width": 305,
+   "height": 560,
+   "bytes": 28328,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones0588vid3.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones0705sc3.jpg",
+   "width": 349,
+   "height": 721,
+   "bytes": 102428,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones0705sc3.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones0863vid2.jpg",
+   "width": 305,
+   "height": 560,
+   "bytes": 28270,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones0863vid2.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones1292au.jpg",
+   "width": 600,
+   "height": 430,
+   "bytes": 96519,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones1292au.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones1331c.jpg",
+   "width": 925,
+   "height": 600,
+   "bytes": 151049,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones1331c.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones1462c2.jpg",
+   "width": 1280,
+   "height": 610,
+   "bytes": 167552,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones1462c2.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones1462c2m.jpg",
+   "width": 700,
+   "height": 483,
+   "bytes": 84292,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones1462c2m.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones765sc.jpg",
+   "width": 400,
+   "height": 600,
+   "bytes": 57886,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones765sc.jpg"
+  },
+  {
+   "file": "assets/photos/Milestones778c.jpg",
+   "width": 307,
+   "height": 779,
+   "bytes": 70657,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/Milestones778c.jpg"
+  },
+  {
+   "file": "assets/photos/milestones-2026-1.jpg",
+   "width": 234,
+   "height": 600,
+   "bytes": 59343,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones-2026-1.jpg"
+  },
+  {
+   "file": "assets/photos/milestones-2026-2.jpg",
+   "width": 600,
+   "height": 430,
+   "bytes": 117474,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones-2026-2.jpg"
+  },
+  {
+   "file": "assets/photos/milestones-2026-2b.jpg",
+   "width": 600,
+   "height": 430,
+   "bytes": 114023,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones-2026-2b.jpg"
+  },
+  {
+   "file": "assets/photos/milestones-2026-4.jpg",
+   "width": 307,
+   "height": 779,
+   "bytes": 157006,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones-2026-4.jpg"
+  },
+  {
+   "file": "assets/photos/milestones-2026-4b.jpg",
+   "width": 307,
+   "height": 779,
+   "bytes": 149452,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones-2026-4b.jpg"
+  },
+  {
+   "file": "assets/photos/milestones-2026-5.jpg",
+   "width": 925,
+   "height": 600,
+   "bytes": 200910,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones-2026-5.jpg"
+  },
+  {
+   "file": "assets/photos/milestones-2026-5b.jpg",
+   "width": 925,
+   "height": 600,
+   "bytes": 188929,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones-2026-5b.jpg"
+  },
+  {
+   "file": "assets/photos/milestones-grp-2026-ty.jpg",
+   "width": 925,
+   "height": 621,
+   "bytes": 222212,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones-grp-2026-ty.jpg"
+  },
+  {
+   "file": "assets/photos/milestones-grp-2026.jpg",
+   "width": 600,
+   "height": 403,
+   "bytes": 107556,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones-grp-2026.jpg"
+  },
+  {
+   "file": "assets/photos/milestones-og.jpg",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 140330,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones-og.jpg"
+  },
+  {
+   "file": "assets/photos/milestones_hero26_1280.jpg",
+   "width": 1280,
+   "height": 618,
+   "bytes": 291332,
+   "used_on_old_site": true,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones_hero26_1280.jpg"
+  },
+  {
+   "file": "assets/photos/milestones_hero_1280.jpg",
+   "width": 1280,
+   "height": 618,
+   "bytes": 257287,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones_hero_1280.jpg"
+  },
+  {
+   "file": "assets/photos/milestones_hero_ga26.jpg",
+   "width": 1280,
+   "height": 544,
+   "bytes": 291690,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/milestones_hero_ga26.jpg"
+  },
+  {
+   "file": "assets/photos/royal-garden-hotel-logo3.png",
+   "width": 200,
+   "height": 66,
+   "bytes": 2516,
+   "used_on_old_site": false,
+   "old_url": "https://themilestoneslive.com/wp-content/uploads/royal-garden-hotel-logo3.png"
+  }
+ ]
+}

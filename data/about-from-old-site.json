@@ -1,0 +1,106 @@
+{
+ "source": "https://themilestoneslive.com/ (About Us section)",
+ "note": "text blocks are the exact old-site text. Lists are auto-split from the text and need a check (venues list had a missing comma; artists list has a duplicate and a spelling variant).",
+ "blocks": [
+  {
+   "key": "about_title",
+   "text": "About Us"
+  },
+  {
+   "key": "about_intro",
+   "text": "The Milestones are a collective of musicians who bring high end sensibilities to one of the UK’s most exciting function and event bands. Providing a perfect mix of Motown, chart hits, soul and funk, they have the pedigree to ensure an authentic experience for your party."
+  },
+  {
+   "key": "about_band_sizes",
+   "text": "The Milestones typically perform as a 7 piece and can also offer anything from a 5 piece up to a show-stopping 12 piece party band, all with their signature sound."
+  },
+  {
+   "key": "about_venues",
+   "text": "They have played at many highly prestigious venues globally including; Kempinski Istanbul (formerly the Ottoman Palace), Burj Khalifa (Dubai), Tivoli Palacio de Seteais Sintra (Portugal), National Entertainment Centre Birmingham, Phoenix 2 super-yacht, The Sage (Newcastle) Four Seasons and Dorchester on Park Lane to name a few."
+  },
+  {
+   "key": "about_worked_with_lead",
+   "text": "Collectively, their members have performed and or recorded with the following artists:"
+  },
+  {
+   "key": "about_worked_with",
+   "text": "Prince, Roy Ayers, Crusaders, Light Of The World, Jamiroquai, Will Young, John Newman, Beverley Knight, James Cotton, Ronnie Wood, KT Tunstall, Dr John, Maceo Parker, Jocelyn Brown, James Morrison, Beverly Knight, Lemar, Ella Henderson, Nile Rodgers and Chic, Maceo Parker, Hamish Stuart, Quincy Jones, Philip Bailey, Sophie Ellis-Baxter, Jess Glynne, Karen Harding, Heatwave, Jimmy Sommerville, Ibibio Sound Machine, CnC Music Factory, Michael Jackson, George Harrison, Eric Clapton, Mike Oldfield, Whitney Houston, David Foster, Greg Phillinganes, Axelle Red, Ms Dynamite, Craig David, Michael Boothm, Lynden David Hall, Sister Sledge, Odyssey, Caron Wheeler, De La Soul, Jean Carne, Tom Browne, Watts Prophet, The Lighthouse Family, The Royal Philharmonic Orchestra, Billy Ocean, Roachford, Amy Winehouse, Jay Sean, Omar, Don-e, Frank McComb, Nona Hendryx, Joyce Sims, Melba Moore and Ken Boothe."
+  }
+ ],
+ "venues_list": [
+  "Kempinski Istanbul (formerly the Ottoman Palace)",
+  "Burj Khalifa (Dubai)",
+  "Tivoli Palacio de Seteais Sintra (Portugal)",
+  "National Entertainment Centre Birmingham",
+  "Phoenix 2 super-yacht",
+  "The Sage (Newcastle)",
+  "Four Seasons",
+  "Dorchester on Park Lane"
+ ],
+ "worked_with_list": [
+  "Prince",
+  "Roy Ayers",
+  "Crusaders",
+  "Light Of The World",
+  "Jamiroquai",
+  "Will Young",
+  "John Newman",
+  "Beverley Knight",
+  "James Cotton",
+  "Ronnie Wood",
+  "KT Tunstall",
+  "Dr John",
+  "Maceo Parker",
+  "Jocelyn Brown",
+  "James Morrison",
+  "Beverly Knight",
+  "Lemar",
+  "Ella Henderson",
+  "Nile Rodgers and Chic",
+  "Hamish Stuart",
+  "Quincy Jones",
+  "Philip Bailey",
+  "Sophie Ellis-Baxter",
+  "Jess Glynne",
+  "Karen Harding",
+  "Heatwave",
+  "Jimmy Sommerville",
+  "Ibibio Sound Machine",
+  "CnC Music Factory",
+  "Michael Jackson",
+  "George Harrison",
+  "Eric Clapton",
+  "Mike Oldfield",
+  "Whitney Houston",
+  "David Foster",
+  "Greg Phillinganes",
+  "Axelle Red",
+  "Ms Dynamite",
+  "Craig David",
+  "Michael Boothm",
+  "Lynden David Hall",
+  "Sister Sledge",
+  "Odyssey",
+  "Caron Wheeler",
+  "De La Soul",
+  "Jean Carne",
+  "Tom Browne",
+  "Watts Prophet",
+  "The Lighthouse Family",
+  "The Royal Philharmonic Orchestra",
+  "Billy Ocean",
+  "Roachford",
+  "Amy Winehouse",
+  "Jay Sean",
+  "Omar",
+  "Don-e",
+  "Frank McComb",
+  "Nona Hendryx",
+  "Joyce Sims",
+  "Melba Moore",
+  "Ken Boothe"
+ ],
+ "duplicates_removed": [
+  "Maceo Parker"
+ ]
+}

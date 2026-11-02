@@ -1,0 +1,1145 @@
+{
+ "source": "https://themilestoneslive.com/ (Repertoire section)",
+ "note": "artist = the famous performer/original artist as shown on the old site (blank for Route 66 and the traditional Jewish Hora pieces). No songwriter field: not needed.",
+ "styles": [
+  "Motown",
+  "Disco",
+  "Funk",
+  "Chart Hits",
+  "Rock 'n' Roll",
+  "Jewish Hora",
+  "Pop",
+  "Soul"
+ ],
+ "songs": [
+  {
+   "title": "ABC",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Jackson 5"
+  },
+  {
+   "title": "Ain’t No Mountain High Enough",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Marvin Gaye & Tammi Terrell"
+  },
+  {
+   "title": "Baby I Need Your Lovin",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Four Tops"
+  },
+  {
+   "title": "Baby Love",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "The Supremes"
+  },
+  {
+   "title": "Can’t Help Myself (Sugar Pie Honey Bunch)",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Four Tops"
+  },
+  {
+   "title": "Dancing In The Street",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Martha and The Vandellas"
+  },
+  {
+   "title": "Endless Love",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Diana Ross & Lionel Ritchie"
+  },
+  {
+   "title": "Higher Ground",
+   "styles": [
+    "Motown",
+    "Funk"
+   ],
+   "artist": "Stevie Wonder"
+  },
+  {
+   "title": "How Sweet It Is (To Be Loved By You)",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Marvin Gaye"
+  },
+  {
+   "title": "I Heard It Through The Grapevine",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Marvin Gaye"
+  },
+  {
+   "title": "I Want You Back",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Jackson 5"
+  },
+  {
+   "title": "I Wish",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Stevie Wonder"
+  },
+  {
+   "title": "I’ll Be There",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Jackson 5"
+  },
+  {
+   "title": "Let’s Get It On",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Marvin Gaye"
+  },
+  {
+   "title": "My Girl",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "The Temptations"
+  },
+  {
+   "title": "Reach Out I’ll Be There",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Four Tops"
+  },
+  {
+   "title": "Signed Sealed Delivered",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Stevie Wonder"
+  },
+  {
+   "title": "Stop In The Name Of Love",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "The Supremes"
+  },
+  {
+   "title": "Tears Of A Clown",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Smokey Robinson & The Miracles"
+  },
+  {
+   "title": "Tracks Of My Tears",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Smokey Robinson & The Miracles"
+  },
+  {
+   "title": "What’s Going On",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Marvin Gaye"
+  },
+  {
+   "title": "You Can’t Hurry Love",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Supremes"
+  },
+  {
+   "title": "Your Love Keeps Lifting Me Higher",
+   "styles": [
+    "Motown"
+   ],
+   "artist": "Jackie Wilson"
+  },
+  {
+   "title": "Ain’t No Stoppin Us Now",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Mc Fadden & Whitehead"
+  },
+  {
+   "title": "Blame It On The Boogie",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "The Jacksons"
+  },
+  {
+   "title": "Boogie Oogie Oogie",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Taste Of Honey"
+  },
+  {
+   "title": "Car Wash",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Rose Royce"
+  },
+  {
+   "title": "Disco Inferno",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "The Tramps"
+  },
+  {
+   "title": "Don’t Stop ‘Til You Get Enough",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Michael Jackson"
+  },
+  {
+   "title": "Good Times",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Chic"
+  },
+  {
+   "title": "I Will Survive",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Gloria Gaynor"
+  },
+  {
+   "title": "I’m Coming Out",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Diana Ross"
+  },
+  {
+   "title": "Le Freak",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Chic"
+  },
+  {
+   "title": "Let’s Go Round Again",
+   "styles": [
+    "Disco",
+    "Funk"
+   ],
+   "artist": "Average White Band"
+  },
+  {
+   "title": "Rock With You",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Michael Jackson"
+  },
+  {
+   "title": "September",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Earth Wind & Fire"
+  },
+  {
+   "title": "Shake Your Body Down To The Ground",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "The Jacksons"
+  },
+  {
+   "title": "Upside Down",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Diana Ross"
+  },
+  {
+   "title": "Young Hearts Run Free",
+   "styles": [
+    "Disco"
+   ],
+   "artist": "Candi Staton"
+  },
+  {
+   "title": "All This Love That I’m Giving",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Gwen McCrae"
+  },
+  {
+   "title": "Brick House",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "The Commodores"
+  },
+  {
+   "title": "Dance To The Music",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Sly & The Family Stone"
+  },
+  {
+   "title": "Get Down On It",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Kool & The Gang"
+  },
+  {
+   "title": "I Feel Good",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "James Brown"
+  },
+  {
+   "title": "I Got The Feeling",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "James Brown"
+  },
+  {
+   "title": "It’s Your Thing",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Isley Brothers"
+  },
+  {
+   "title": "Jungle Boogie",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Kool & The Gang"
+  },
+  {
+   "title": "Move On Up",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Curtis Mayfield"
+  },
+  {
+   "title": "Mr Big Stuff",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Jean Knight"
+  },
+  {
+   "title": "Papa Was A Rolling Stone",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "The Temptations"
+  },
+  {
+   "title": "Play That Funky Music",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Wild Cherry"
+  },
+  {
+   "title": "Rock Steady",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Aretha Franklin"
+  },
+  {
+   "title": "Sex Machine",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "James Brown"
+  },
+  {
+   "title": "Street Life",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Randy Crawford"
+  },
+  {
+   "title": "Superstition",
+   "styles": [
+    "Funk"
+   ],
+   "artist": "Stevie Wonder"
+  },
+  {
+   "title": "Good as Hell",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Lizzo"
+  },
+  {
+   "title": "Higher Love",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Kygo & Whitney Houston"
+  },
+  {
+   "title": "Promises",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Calvin Harris ft. Sam Smith"
+  },
+  {
+   "title": "All About The Bass",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Meghan Trainor"
+  },
+  {
+   "title": "Blurred Lines",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Robin Thicke"
+  },
+  {
+   "title": "Budapest",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "George Ezra"
+  },
+  {
+   "title": "Can’t Stop The Feeling",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Justin Timberlake"
+  },
+  {
+   "title": "Feel It Still",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Post Malone"
+  },
+  {
+   "title": "Forget You",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Cee Lo Green"
+  },
+  {
+   "title": "For You",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Payne/Ora"
+  },
+  {
+   "title": "Get Lucky",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Daft Punk"
+  },
+  {
+   "title": "Happy",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Pharrell Williams"
+  },
+  {
+   "title": "Havana",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Camila Cabello"
+  },
+  {
+   "title": "Moves Like Jagger",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Maroon 5"
+  },
+  {
+   "title": "Only Girl In The World",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Rihanna"
+  },
+  {
+   "title": "Shake It Off",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Taylor Swift"
+  },
+  {
+   "title": "Shape Of You",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Ed Sheeran"
+  },
+  {
+   "title": "Thinking Out Loud",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Ed Sheeran"
+  },
+  {
+   "title": "Treasure",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Bruno Mars"
+  },
+  {
+   "title": "Uptown Funk",
+   "styles": [
+    "Chart Hits"
+   ],
+   "artist": "Ronson/Mars"
+  },
+  {
+   "title": "CC Rider",
+   "styles": [
+    "Rock 'n' Roll"
+   ],
+   "artist": "Elvis"
+  },
+  {
+   "title": "I Saw Her Standing There",
+   "styles": [
+    "Rock 'n' Roll"
+   ],
+   "artist": "The Beatles"
+  },
+  {
+   "title": "I’ve Got A Woman",
+   "styles": [
+    "Rock 'n' Roll"
+   ],
+   "artist": "Ray Charles"
+  },
+  {
+   "title": "Jailhouse Rock",
+   "styles": [
+    "Rock 'n' Roll"
+   ],
+   "artist": "Elvis"
+  },
+  {
+   "title": "Johnny B. Goode",
+   "styles": [
+    "Rock 'n' Roll"
+   ],
+   "artist": "Chuck Berry"
+  },
+  {
+   "title": "Never Can Tell",
+   "styles": [
+    "Rock 'n' Roll"
+   ],
+   "artist": "Chuck Berry"
+  },
+  {
+   "title": "Proud Mary",
+   "styles": [
+    "Rock 'n' Roll"
+   ],
+   "artist": "Ike & Tina Turner"
+  },
+  {
+   "title": "Route 66",
+   "styles": [
+    "Rock 'n' Roll"
+   ],
+   "artist": ""
+  },
+  {
+   "title": "Shake Rattle And Roll",
+   "styles": [
+    "Rock 'n' Roll"
+   ],
+   "artist": "Bill Haley & His Comets"
+  },
+  {
+   "title": "Twisting The Night Away",
+   "styles": [
+    "Rock 'n' Roll"
+   ],
+   "artist": "Sam Cooke"
+  },
+  {
+   "title": "Bashana",
+   "styles": [
+    "Jewish Hora"
+   ],
+   "artist": ""
+  },
+  {
+   "title": "Choson Kale Mazel Tov",
+   "styles": [
+    "Jewish Hora"
+   ],
+   "artist": ""
+  },
+  {
+   "title": "David Melech Yisrael",
+   "styles": [
+    "Jewish Hora"
+   ],
+   "artist": ""
+  },
+  {
+   "title": "Freylech",
+   "styles": [
+    "Jewish Hora"
+   ],
+   "artist": ""
+  },
+  {
+   "title": "Hatikiva (for toasts)",
+   "styles": [
+    "Jewish Hora"
+   ],
+   "artist": ""
+  },
+  {
+   "title": "Hava Nagila",
+   "styles": [
+    "Jewish Hora"
+   ],
+   "artist": ""
+  },
+  {
+   "title": "Sholom Aleichem",
+   "styles": [
+    "Jewish Hora"
+   ],
+   "artist": ""
+  },
+  {
+   "title": "Siman Tov",
+   "styles": [
+    "Jewish Hora"
+   ],
+   "artist": ""
+  },
+  {
+   "title": "Ufaratsta",
+   "styles": [
+    "Jewish Hora"
+   ],
+   "artist": ""
+  },
+  {
+   "title": "American Boy",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Estelle"
+  },
+  {
+   "title": "Billie Jean",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Michael Jackson"
+  },
+  {
+   "title": "Black And Gold",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Sam Sparrow"
+  },
+  {
+   "title": "Can’t Get You Out Of My Head",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Kylie Minogue"
+  },
+  {
+   "title": "Celebrate",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Kool & The Gang"
+  },
+  {
+   "title": "Could You Be Loved",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Bob Marley"
+  },
+  {
+   "title": "Crazy",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Gnarls Barkley"
+  },
+  {
+   "title": "Crazy In Love",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Beyonce"
+  },
+  {
+   "title": "Deja Vu",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Beyonce"
+  },
+  {
+   "title": "Don’t Stop The Music",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Rihanna"
+  },
+  {
+   "title": "Faith",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "George Michael"
+  },
+  {
+   "title": "Hey Ya",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Outkast"
+  },
+  {
+   "title": "I Gotta Feeling",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Black Eyed Peas"
+  },
+  {
+   "title": "Is This Love",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Bob Marley"
+  },
+  {
+   "title": "I Wanna Dance With Somebody",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Whitney Houston"
+  },
+  {
+   "title": "Killing Me Softly",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "The Fugees"
+  },
+  {
+   "title": "Kiss",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Prince"
+  },
+  {
+   "title": "Mercy",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Duffy"
+  },
+  {
+   "title": "Moondance",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Van Morrison"
+  },
+  {
+   "title": "No Diggity",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Blackstreet"
+  },
+  {
+   "title": "One Way Or Another",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Blondie"
+  },
+  {
+   "title": "Poker Face",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Lady Gaga"
+  },
+  {
+   "title": "Rehab",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Amy Winehouse"
+  },
+  {
+   "title": "Rolling In The Deep",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Adele"
+  },
+  {
+   "title": "Seven Nation Army",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "The White Stripes"
+  },
+  {
+   "title": "Shy Guy",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Diana King"
+  },
+  {
+   "title": "Sing It Back",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Moloko"
+  },
+  {
+   "title": "Single Ladies",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Beyonce"
+  },
+  {
+   "title": "Teardrops",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Womack And Womack"
+  },
+  {
+   "title": "The Way You Make Me Feel",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Michael Jackson"
+  },
+  {
+   "title": "This Love",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Maroon 5"
+  },
+  {
+   "title": "Toxic",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Britney Spears"
+  },
+  {
+   "title": "Umbrella",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Rihanna"
+  },
+  {
+   "title": "Valerie",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Amy Winehouse"
+  },
+  {
+   "title": "Walk Like An Egyptian",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Bangles"
+  },
+  {
+   "title": "Waterfalls",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "TLC"
+  },
+  {
+   "title": "Word Up",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Cameo"
+  },
+  {
+   "title": "You Can Call Me Al",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Paul Simon"
+  },
+  {
+   "title": "You Got The Love",
+   "styles": [
+    "Pop"
+   ],
+   "artist": "Florence & The machine"
+  },
+  {
+   "title": "Ain’t No Body",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Chaka Khan"
+  },
+  {
+   "title": "Ain’t No Sunshine",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Bill Withers"
+  },
+  {
+   "title": "All Night Long",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Lionel Richie"
+  },
+  {
+   "title": "At Last",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Etta James"
+  },
+  {
+   "title": "Chain Of Fools",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Aretha Franklin"
+  },
+  {
+   "title": "Everybody Needs Somebody",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Solomon Burke"
+  },
+  {
+   "title": "Feel Like Makin’ Love",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Roberta Flack"
+  },
+  {
+   "title": "Give Me The Night",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "George Benson"
+  },
+  {
+   "title": "Hard To Handle",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Otis Redding"
+  },
+  {
+   "title": "In The Midnight Hour",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Wilson Pickett"
+  },
+  {
+   "title": "It’s A Shame",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "The Spinners"
+  },
+  {
+   "title": "I’m Every Woman",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Whitney Houston version"
+  },
+  {
+   "title": "Knock On Wood",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Eddie Floyd"
+  },
+  {
+   "title": "Let’s Stay Together",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Al Green"
+  },
+  {
+   "title": "Lovely Day",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Bill Withers"
+  },
+  {
+   "title": "Love Train",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "The O’Jays"
+  },
+  {
+   "title": "Midnight Hour",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Wilson Pickett"
+  },
+  {
+   "title": "Mustang Sally",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Wilson Pickett"
+  },
+  {
+   "title": "Natural Woman",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Aretha Franklin"
+  },
+  {
+   "title": "Never Too Much",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Luther Vandross"
+  },
+  {
+   "title": "Rescue Me",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Fontella Bass"
+  },
+  {
+   "title": "Respect",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Aretha Franklin"
+  },
+  {
+   "title": "Sittin On The Dock Of The Bay",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Otis Redding"
+  },
+  {
+   "title": "Somebody Else’s Guy",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Jocelyn Brown"
+  },
+  {
+   "title": "Something’s Got A Hold On Me",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Etta James"
+  },
+  {
+   "title": "Soul Man",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Sam & Dave"
+  },
+  {
+   "title": "Try A Little Tenderness",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Otis Redding"
+  },
+  {
+   "title": "We Are Family",
+   "styles": [
+    "Soul"
+   ],
+   "artist": "Sister Sledge"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+# Big or private files that must not go to GitHub
+source-assets/
+private/
+outbox/
+db/_backups/
+db-before-import-*/
+node_modules/
+.wrangler/
+.dev.vars
+.DS_Store
+*.tmp-*
+*.part
+mockup-*.html

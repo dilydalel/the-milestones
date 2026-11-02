@@ -1,0 +1,10 @@
+{
+  "name": "the-milestones",
+  "private": true,
+  "description": "Milestones Music website and admin",
+  "scripts": {
+    "start": "node server.js",
+    "dev:online": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}
