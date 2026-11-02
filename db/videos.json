@@ -1,14 +1,14 @@
 [
  {
-  "id": "video-1",
   "bandId": "band-milestones",
   "title": "Greatest Hits",
-  "youtubeUrl": "",
-  "file": "source-assets/old-site-videos/Milestones_GH_PALWS.mp4",
+  "youtubeUrl": "https://www.youtube.com/watch?v=VZRTpkuvZ94",
+  "file": "",
   "poster": "source-assets/old-site-videos/video_greatest-hits2.png",
   "order": 1,
+  "id": "video-1",
   "createdAt": "2026-11-02T16:01:04.513Z",
-  "updatedAt": "2026-11-02T16:01:04.513Z"
+  "updatedAt": "2026-11-02T18:33:39.396Z"
  },
  {
   "bandId": "band-gemstones",
