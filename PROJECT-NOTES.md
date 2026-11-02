@@ -110,4 +110,4 @@ Plan: build locally in this folder, static site (not WordPress), with an online 
 - Enquiry emails go to Settings > Enquiry email (default themilestones@themilestoneslive.com); sending needs a Resend account and key.
 - Francis is the only admin for now; he adds band members himself (Admin and Editor roles).
 - Videos in Media > Videos need a YouTube link to show online. The original video files (source-assets) are not uploaded. The band hero loops in assets/ are uploaded and work online; new hero loops can be uploaded in the band's Hero video field.
-- The Mac folder is not linked to GitHub yet: once the site is live, edit online, not locally, or local changes will need merging.
+- The Mac copy was deleted (Nov 2026). All changes are made online only: in the admin, or committed to this GitHub repo. The original full-length videos (source-assets) were not kept.

@@ -50,5 +50,5 @@ When ready: worker **Settings** > **Domains & Routes** > add `themilestoneslive.
 ## Videos
 The big old-site videos are not uploaded. On the website a video shows when it has a **YouTube link** (admin: Media > Videos) or an uploaded file. Hero videos can be uploaded in the admin (keep them short: under about 100 MB).
 
-## Working on your Mac
-`start.command` still runs the site locally from the files in this folder, exactly as before.
+## Working on the site
+All changes are made online: content in the admin, code in this GitHub repository. (`start.command` can still run a copy locally from a clone of this repository if ever needed.)
