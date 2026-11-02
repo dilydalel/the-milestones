@@ -263,9 +263,9 @@ body.enq-open{overflow:hidden}
 .bands .band .tags+.photo,.bands .band .tags+.ph{margin-top:0}
 
 /* home band boxes: tagline in an upright serif, quiet grey */
-.band .tagline{text-transform:none;letter-spacing:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;font-weight:500;line-height:1.25;color:#525252;margin-bottom:26px}
+.band .tagline{text-transform:none;letter-spacing:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;font-weight:500;line-height:1.25;color:#525252;margin-bottom:40px}
 /* home band boxes: band type sits close above the name */
-.band h2{margin-top:30px;margin-bottom:16px}
+.band h2{margin-top:20px;margin-bottom:12px}
 /* home band boxes: tighter padding (phones keep their own padding) */
 @media(min-width:801px){.band{padding:20px 32px 32px}}
 /* quotes: at most 4 lines, then "…" and Read more */
