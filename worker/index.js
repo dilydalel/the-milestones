@@ -46,8 +46,8 @@ const SNAP_KEY = '_cache/db.json';
 let mem = null;
 async function saveSnapshot(env, s) {
   const snap = { oid: s.oid, files: s.files, at: Date.now() };
-  await env.MEDIA.put(SNAP_KEY, JSON.stringify(snap));
-  mem = { ...snap, loaded: Date.now() };
+  const obj = await env.MEDIA.put(SNAP_KEY, JSON.stringify(snap));
+  mem = { ...snap, etag: obj && obj.etag, loaded: Date.now() };
 }
 async function refreshSnapshot(env, snap) {
   try {
@@ -56,13 +56,23 @@ async function refreshSnapshot(env, snap) {
     else await saveSnapshot(env, snap);
   } catch (e) { console.log('snapshot refresh failed:', e.message); }
 }
+// fresh (admin): reuse the copy in memory unless the stored one has changed (a quick check)
 async function getSnapshot(env, ctx, fresh) {
-  if (!fresh && mem && Date.now() - mem.loaded < 15000) return mem;
+  const now = Date.now();
+  if (mem && now - mem.loaded < (fresh ? 1500 : 15000)) return mem;
+  if (mem && mem.etag) {
+    const head = await env.MEDIA.head(SNAP_KEY);
+    if (head && head.etag === mem.etag) {
+      mem.loaded = now;
+      if (now - mem.at > 5 * 60000 && ctx) ctx.waitUntil(refreshSnapshot(env, mem));
+      return mem;
+    }
+  }
   const o = await env.MEDIA.get(SNAP_KEY);
-  let snap = o ? await o.json() : null;
+  const snap = o ? await o.json() : null;
   if (!snap) { const d = await loadDb(env); await saveSnapshot(env, d); return mem; }
-  if (Date.now() - snap.at > 5 * 60000 && ctx) ctx.waitUntil(refreshSnapshot(env, snap));
-  mem = { ...snap, loaded: Date.now() };
+  if (now - snap.at > 5 * 60000 && ctx) ctx.waitUntil(refreshSnapshot(env, snap));
+  mem = { ...snap, etag: o.etag, loaded: now };
   return mem;
 }
 const readDb = (snap) => new DB(new ReadStore(snap.files));

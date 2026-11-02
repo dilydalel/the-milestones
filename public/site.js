@@ -7,6 +7,24 @@
   menu.querySelector('.close').addEventListener('click', function () { setMenu(false); });
   menu.addEventListener('click', function (e) { if (e.target.tagName === 'A') setMenu(false); });
 
+  // ---------- YouTube: show a still until clicked, then load the player
+  document.querySelectorAll('img[data-yt-thumb]').forEach(function (img) {
+    function check() { if (img.naturalWidth && img.naturalWidth <= 120) img.src = img.src.replace('maxresdefault', 'hqdefault'); }
+    if (img.complete) check(); else img.addEventListener('load', check);
+    img.addEventListener('error', function () { img.src = img.src.replace('maxresdefault', 'hqdefault'); });
+  });
+  document.querySelectorAll('.yt').forEach(function (box) {
+    box.addEventListener('click', function () {
+      if (box.querySelector('iframe')) return;
+      var f = document.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/' + box.getAttribute('data-yt') + '?autoplay=1&rel=0&playsinline=1';
+      var b = box.querySelector('.play'); f.title = b ? b.getAttribute('aria-label') : 'Video';
+      f.allow = 'accelerometer; autoplay; encrypted-media; picture-in-picture; fullscreen';
+      f.setAttribute('allowfullscreen', '');
+      box.innerHTML = ''; box.appendChild(f); box.classList.add('playing');
+    });
+  });
+
   // ---------- hero loops: play only the chosen section, on repeat
   document.querySelectorAll('video[data-start]').forEach(function (v) {
     var a = parseFloat(v.getAttribute('data-start')) || 0, b = parseFloat(v.getAttribute('data-end')) || 0;

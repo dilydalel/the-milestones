@@ -32,10 +32,13 @@ export async function makeCookie(env, id) {
 }
 export const clearCookie = `${COOKIE}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Strict`;
 
+let tablesReady = false; // checked once per running copy of the worker, not on every request
 export async function ensureTables(env) {
+  if (tablesReady) return;
   await env.DB.exec("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, email TEXT UNIQUE NOT NULL, name TEXT, role TEXT NOT NULL, salt TEXT NOT NULL, hash TEXT NOT NULL, disabled INTEGER DEFAULT 0, created TEXT)");
   await env.DB.exec('CREATE TABLE IF NOT EXISTS attempts (email TEXT, ts INTEGER)');
   await env.DB.exec("CREATE TABLE IF NOT EXISTS enquiries (id TEXT PRIMARY KEY, status TEXT NOT NULL DEFAULT 'new', received TEXT, data TEXT NOT NULL, created TEXT, updated TEXT)");
+  tablesReady = true;
 }
 
 export async function currentUser(req, env) {
