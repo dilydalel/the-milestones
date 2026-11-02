@@ -29,6 +29,13 @@
     return j;
   }
   const load = async (name, force) => (cache[name] && !force ? cache[name] : (cache[name] = await api('GET', '/api/c/' + name)));
+  // all the site's lists come in one request and are reused while browsing; refreshed if older than 20 seconds
+  let cacheAt = 0;
+  async function ensureFresh() {
+    if (Date.now() - cacheAt < 20000) return;
+    const r = await api('GET', '/api/all');
+    Object.assign(cache, r.data); cacheAt = Date.now();
+  }
   const forget = (name) => { delete cache[name]; };
 
   function toast(msg, err) {
@@ -61,9 +68,13 @@
   const appendAll = (el, ...kids) => el.append(...kids.flat().filter((k) => k != null && k !== false));
 
   // ---------- navigation
+  let lastStatus = { newEnquiries: 0 };
   async function renderNav(activeColl) {
-    let status = { newEnquiries: 0 };
-    try { status = await api('GET', '/api/status'); } catch {}
+    const status = lastStatus;
+    api('GET', '/api/status').then((st) => { // update the enquiries count without holding up the page
+      const old = lastStatus.newEnquiries; lastStatus = st;
+      if (st.newEnquiries !== old) renderNav(activeColl);
+    }).catch(() => {});
     const box = $('#nav-links'); box.innerHTML = '';
     if (MODE === 'online' && ME) {
       const acct = $('#nav-account') || (() => { const d = h('div', { id: 'nav-account' }); $('#nav').append(d); return d; })();
@@ -95,6 +106,7 @@
     const view = $('#view');
     view.innerHTML = '<p class="muted">Loading…</p>';
     try {
+      await ensureFresh();
       if (p[0] === 'c' && SCHEMA[p[1]] && p[2]) { await renderNav(p[1]); await editView(p[1], p[2] === 'new' ? null : p[2]); }
       else if (p[0] === 'c' && SCHEMA[p[1]]) { await renderNav(p[1]); await listView(p[1]); }
       else if (p[0] === 'settings') { await renderNav('settings'); await editView('settings', null); }
@@ -112,7 +124,7 @@
     const view = $('#view'); view.innerHTML = '';
     const status = await api('GET', '/api/status');
     const show = ['bands', 'songs', 'photos', 'videos', 'tracks', 'testimonials', 'faqs', 'clients', 'enquiries'];
-    const counts = await Promise.all(show.map((n) => load(n, true).then((x) => x.length)));
+    const counts = await Promise.all(show.map((n) => load(n, SCHEMA[n].private).then((x) => x.length)));
     appendAll(view,
       h('h1', {}, 'Admin'),
       h('p', { class: 'muted' }, 'Everything you save here changes the website straight away. Refresh the website tab to see it.'),
@@ -141,11 +153,11 @@
   async function listView(name) {
     const c = SCHEMA[name];
     const view = $('#view'); view.innerHTML = '';
-    const items = await load(name, true);
+    const items = await load(name, !!c.private);
     const fields = Object.fromEntries(c.fields.map((f) => [f.key, f]));
     const refNames = [...new Set(c.fields.filter((f) => f.ref).map((f) => f.ref))];
     const refs = {};
-    for (const r of refNames) refs[r] = Object.fromEntries((await load(r, true)).map((x) => [x.id, x]));
+    for (const r of refNames) refs[r] = Object.fromEntries((await load(r)).map((x) => [x.id, x]));
 
     const search = h('input', { type: 'search', placeholder: 'Search ' + c.label.toLowerCase() });
     let bandSel = null;
@@ -594,7 +606,12 @@
   async function editView(name, id) {
     const c = SCHEMA[name];
     const view = $('#view'); view.innerHTML = '';
-    const item = c.single ? await api('GET', '/api/c/' + name) : id ? await api('GET', `/api/c/${name}/${id}`) : {};
+    // use the copy already loaded when there is one (a save is still checked against the latest version)
+    const cached = !c.private && Array.isArray(cache[name]) ? cache[name] : null;
+    const fromCache = !c.single && id && cached ? cached.find((x) => x.id === id) : null;
+    const item = fromCache ? structuredClone(fromCache)
+      : c.single ? (cache[name] && !Array.isArray(cache[name]) ? structuredClone(cache[name]) : await api('GET', '/api/c/' + name))
+      : id ? await api('GET', `/api/c/${name}/${id}`) : {};
     const isNew = !c.single && !id;
     const controls = {};
     const form = h('div', { class: 'form' });

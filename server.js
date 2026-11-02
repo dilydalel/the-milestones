@@ -144,6 +144,7 @@ async function api(req, res, url) {
   if (parts[0] === 'me') return json(res, 200, { user: { id: 0, name: 'This Mac', email: '', role: 'admin' }, needsSetup: false, mode: 'local' });
   if (parts[0] === 'logout') return json(res, 200, { ok: true });
   if (parts[0] === 'schema') return json(res, 200, { collections, groups });
+  if (parts[0] === 'all') return json(res, 200, { data: Object.fromEntries(Object.keys(collections).filter((n) => !collections[n].private).map((n) => [n, db.list(n)])) });
   if (parts[0] === 'files') return json(res, 200, { files: listFiles() });
   if (parts[0] === 'upload' && m === 'PUT') return upload(req, res, url.searchParams);
   if (parts[0] === 'status') {

@@ -203,6 +203,7 @@ async function listFiles(env) {
 async function usersApi(req, env, user, id) {
   if (user.role !== 'admin') return fail('Only admins can manage users.', 403);
   const m = req.method;
+  if (m !== 'GET') auth.forgetUsers();
   if (m === 'GET') return json({ users: (await env.DB.prepare('SELECT id,email,name,role,disabled,created FROM users ORDER BY email').all()).results });
   const b = m === 'DELETE' ? {} : await req.json().catch(() => ({}));
   if (m === 'POST') {
@@ -292,6 +293,10 @@ async function api(req, env, ctx, url) {
   const parts = p.split('/').filter(Boolean).slice(1);
   if (parts[0] === 'users') return usersApi(req, env, user, parts[1]);
   if (parts[0] === 'schema') return json({ collections, groups });
+  if (parts[0] === 'all') { // everything the admin needs, in one go
+    const db = readDb(await getSnapshot(env, ctx, true));
+    return json({ data: Object.fromEntries(Object.keys(collections).filter((n) => !collections[n].private).map((n) => [n, db.list(n)])) });
+  }
   if (parts[0] === 'files') return json({ files: await listFiles(env) });
   if (parts[0] === 'upload' && m === 'PUT') return upload(req, env, url.searchParams);
   if (parts[0] === 'status') {

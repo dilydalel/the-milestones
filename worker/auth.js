@@ -47,9 +47,16 @@ export async function currentUser(req, env) {
   const [id, exp, sig] = m[1].split('.');
   if (!id || !exp || !sig || Number(exp) < Date.now()) return null;
   if (!same(sig, await sign(env, `${id}.${exp}`))) return null;
+  const hit = userCache.get(id);
+  if (hit && Date.now() - hit.at < 30000) return hit.user;
   const u = await env.DB.prepare('SELECT id,email,name,role,disabled FROM users WHERE id=?').bind(Number(id)).first();
-  return u && !u.disabled ? u : null;
+  const user = u && !u.disabled ? u : null;
+  userCache.set(id, { user, at: Date.now() });
+  return user;
 }
+// signed-in users, kept for 30 seconds; cleared whenever users are changed
+const userCache = new Map();
+export const forgetUsers = () => userCache.clear();
 
 // Slow down repeated wrong passwords (10 tries per 15 minutes per email).
 export async function tooManyAttempts(env, email) {
