@@ -129,7 +129,7 @@ async function enquiry(req, res) {
   const received = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
   const row = db.insertRaw('enquiries', { status: 'new', received, ...e, emailStatus: '' });
   let emailStatus;
-  try { emailStatus = sendEnquiryEmail({ enquiry: row, settings: db.read('settings'), outboxDir: OUTBOX }); } catch (x) { emailStatus = 'Email failed: ' + x.message; }
+  try { emailStatus = sendEnquiryEmail({ enquiry: row, settings: { ...db.read('settings'), ...db.read('formText') }, outboxDir: OUTBOX }); } catch (x) { emailStatus = 'Email failed: ' + x.message; }
   const items = db.read('enquiries');
   const it = items.find((x) => x.id === row.id); it.emailStatus = emailStatus;
   db.write('enquiries', items);

@@ -132,7 +132,7 @@
       h('div', { class: 'cards' }, show.map((n, i) => h('a', { class: 'card', href: '#/c/' + n }, h('b', {}, counts[i]), h('span', {}, SCHEMA[n].label)))),
       MODE === 'online'
         ? h('div', { class: 'note' }, 'Every save is kept in GitHub, so earlier versions can always be recovered. ',
-            status.emailReady ? `New enquiries are emailed to ${status.enquiryEmail || '(set the address in Settings)'}.` : 'Email sending is not set up yet: enquiries are saved here under Enquiries.')
+            status.emailReady ? `New enquiries are emailed to ${status.enquiryEmail || '(set the address in Booking form text)'}.` : 'Email sending is not set up yet: enquiries are saved here under Enquiries.')
         : h('div', { class: 'note' },
             `Local sandbox: this admin only works on this computer, with no login. Every save keeps a backup in db/_backups. `,
             `Enquiry emails are not sent from the Mac; they are written to the outbox folder (${status.outbox || 0} so far).`),

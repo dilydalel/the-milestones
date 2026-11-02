@@ -125,7 +125,7 @@ async function postEnquiry(req, env, ctx) {
   await env.DB.prepare('INSERT INTO enquiries (id,status,received,data,created,updated) VALUES (?,?,?,?,?,?)').bind(id, 'new', received, JSON.stringify(e), now, now).run();
   ctx.waitUntil((async () => {
     let status;
-    try { status = await sendEnquiryEmail(env, (await getSnapshot(env, null)).files.settings || {}, e); } catch (x) { status = 'Email failed: ' + x.message; }
+    try { const f = (await getSnapshot(env, null)).files; status = await sendEnquiryEmail(env, { ...(f.settings || {}), ...(f.formText || {}) }, e); } catch (x) { status = 'Email failed: ' + x.message; }
     await env.DB.prepare('UPDATE enquiries SET data=? WHERE id=?').bind(JSON.stringify({ ...e, emailStatus: status }), id).run();
   })());
   return json({ ok: true });
@@ -301,7 +301,7 @@ async function api(req, env, ctx, url) {
   if (parts[0] === 'upload' && m === 'PUT') return upload(req, env, url.searchParams);
   if (parts[0] === 'status') {
     const n = (await env.DB.prepare("SELECT COUNT(*) c FROM enquiries WHERE status='new'").first()).c;
-    const s = (await getSnapshot(env, ctx, true)).files.settings || {};
+    const f = (await getSnapshot(env, ctx, true)).files, s = { ...(f.settings || {}), ...(f.formText || {}) };
     return json({ newEnquiries: n, mode: 'online', emailReady: !!(env.RESEND_API_KEY && env.MAIL_FROM), enquiryEmail: s.enquiryEmail || s.contactEmail || '' });
   }
   if (parts[0] === 'order' && parts[1] && m === 'PUT') {
