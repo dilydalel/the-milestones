@@ -287,3 +287,5 @@ body.enq-open{overflow:hidden}
 /* home band boxes: smaller genre tags */
 .band .tags span{font-size:10px;padding:9px 12px}
 .band-side .instr ul{max-width:none}
+/* band pages: About text stays in its own column beside the photo (no wrapping underneath) */
+@media(min-width:801px){.band-text{display:flow-root}}
