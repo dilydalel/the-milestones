@@ -264,3 +264,5 @@ body.enq-open{overflow:hidden}
 
 /* home band boxes: tagline in light normal text, not capitals */
 .band .tagline{text-transform:none;letter-spacing:0;font-size:16px;font-weight:300;line-height:1.4;color:#545454}
+/* home band boxes: band type sits close above the name */
+.band h2{margin-top:3px}
