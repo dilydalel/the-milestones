@@ -262,8 +262,9 @@ body.enq-open{overflow:hidden}
 .bands .band .tags{margin-top:auto}
 .bands .band .tags+.photo,.bands .band .tags+.ph{margin-top:0}
 
-/* home band boxes: tagline in light normal text, not capitals */
-.band .tagline{text-transform:none;letter-spacing:0;font-size:16px;font-weight:300;line-height:1.4;color:#545454}
+/* home band boxes: tagline in plain text with a short red line above */
+.band .tagline{text-transform:none;letter-spacing:0;font-size:15px;font-weight:400;line-height:1.45;color:#333}
+.band .tagline::before{content:"";display:block;width:28px;height:1px;background:#8e1b1b;margin-bottom:12px}
 /* home band boxes: band type sits close above the name */
 .band h2{margin-top:30px;margin-bottom:20px}
 /* home band boxes: tighter padding (phones keep their own padding) */
