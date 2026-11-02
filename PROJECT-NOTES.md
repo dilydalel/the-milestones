@@ -103,3 +103,11 @@ Plan: build locally in this folder, static site (not WordPress), with an online 
 - 2 Nov 2026 16:44: song styles merged into Genres (one list for songs and bands). Band repertoire = songs in the band's genres + songs added by hand - songs left out (fields songIds = extras, excludedSongIds = left out). Conversion script tools/merge-styles-into-genres.js (old styles list kept in db/_backups). Share image falls back to main photo; search title/description fall back to name/tagline.
 - 2 Nov 2026 16:47: assets/hero-loop-2019-sound.mp4 (2019 clip 40-52 s with audio) made and set as The Gemstones hero video.
 - 2 Nov 2026 17:04: hero loop editor (start/end + live crop preview) for band heroes and home hero; fields heroStart/heroEnd; site loops only that section. Hero framing field heroPosition (top/upper/center/lower/bottom). Admin refuses stale saves (version check).
+
+## Online (Nov 2026)
+- Code and content are on GitHub: dilydalel/the-milestones (branch main). Hosting: Cloudflare Worker "the-milestones" (see README-ONLINE.md for setup).
+- Online admin saves commit db/*.json straight to GitHub. Uploads go to Cloudflare R2; logins and enquiries live in Cloudflare D1 (enquiries never go to GitHub).
+- Enquiry emails go to Settings > Enquiry email (default themilestones@themilestoneslive.com); sending needs a Resend account and key.
+- Francis is the only admin for now; he adds band members himself (Admin and Editor roles).
+- Videos in Media > Videos need a YouTube link to show online. The original video files (source-assets) are not uploaded. The band hero loops in assets/ are uploaded and work online; new hero loops can be uploaded in the band's Hero video field.
+- The Mac folder is not linked to GitHub yet: once the site is live, edit online, not locally, or local changes will need merging.
