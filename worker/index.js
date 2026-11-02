@@ -41,7 +41,7 @@ class ReadStore { // for showing pages: read only, fast
 }
 
 // A copy of the latest data is kept in R2 so pages are quick; it is refreshed on every
-// save, and checked against GitHub every 5 minutes in case GitHub was changed directly.
+// save, and checked against GitHub every minute in case GitHub was changed directly.
 const SNAP_KEY = '_cache/db.json';
 let mem = null;
 async function saveSnapshot(env, s) {
@@ -64,14 +64,14 @@ async function getSnapshot(env, ctx, fresh) {
     const head = await env.MEDIA.head(SNAP_KEY);
     if (head && head.etag === mem.etag) {
       mem.loaded = now;
-      if (now - mem.at > 5 * 60000 && ctx) ctx.waitUntil(refreshSnapshot(env, mem));
+      if (now - mem.at > 60000 && ctx) ctx.waitUntil(refreshSnapshot(env, mem));
       return mem;
     }
   }
   const o = await env.MEDIA.get(SNAP_KEY);
   const snap = o ? await o.json() : null;
   if (!snap) { const d = await loadDb(env); await saveSnapshot(env, d); return mem; }
-  if (now - snap.at > 5 * 60000 && ctx) ctx.waitUntil(refreshSnapshot(env, snap));
+  if (now - snap.at > 60000 && ctx) ctx.waitUntil(refreshSnapshot(env, snap));
   mem = { ...snap, etag: o.etag, loaded: now };
   return mem;
 }
