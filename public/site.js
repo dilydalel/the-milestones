@@ -99,6 +99,10 @@
   if (!form) return;
 
   // ---------- enquiry "basket": kept while moving between pages
+  // ---------- event date: a date picker that starts from today
+  var ed = document.getElementById('eventDate');
+  if (ed) { var d = new Date(); ed.min = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+
   // ---------- event type: a box to say more when the chosen type asks for it (e.g. Other)
   var et = document.getElementById('eventType'), etMore = document.getElementById('eventTypeMore');
   function syncMore() {
@@ -213,6 +217,7 @@
     var data = {};
     var fd = new FormData(form);
     fd.forEach(function (v, k) { data[k] = fd.getAll(k).join(', '); });
+    var dm = /^(\d{4})-(\d{2})-(\d{2})$/.exec(data.eventDate || ''); if (dm) data.eventDate = dm[3] + '/' + dm[2] + '/' + dm[1]; // send as DD/MM/YYYY
     if (data.eventTypeMore) data.eventType = data.eventType + ': ' + data.eventTypeMore; // e.g. "Other: christening"
     delete data.eventTypeMore;
     var button = form.querySelector('button[type=submit]');

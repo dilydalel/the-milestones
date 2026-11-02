@@ -299,3 +299,6 @@ body.enq-open{overflow:hidden}
 .submit button{text-transform:none;letter-spacing:.02em;font-size:15px;font-weight:500}
 .field input.more{margin-top:10px}
 .field input.more[hidden]{display:none}
+/* date picker: dark style so the calendar icon and pop-up suit the form */
+.field input[type=date]{color-scheme:dark;cursor:pointer}
+.field input[type=date]::-webkit-calendar-picker-indicator{cursor:pointer;opacity:.8}
