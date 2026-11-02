@@ -340,7 +340,7 @@ export default {
       if (e instanceof ValidationError) return fail(e.message, e.status);
       if (e instanceof ConflictError) return fail('Someone else saved at the same moment. Please try again.', 409);
       console.log('error:', e.stack || e.message);
-      return url.pathname.startsWith('/api/') ? fail('Server error: ' + e.message, 500) : new Response('Sorry, something went wrong.', { status: 500 });
+      return url.pathname.startsWith('/api/') ? fail('Server error: ' + e.message, 500) : new Response('Sorry, something went wrong.\n\nReason: ' + String(e.message || e).slice(0, 300), { status: 500, headers: { 'content-type': 'text/plain; charset=utf-8' } });
     }
   },
 };
