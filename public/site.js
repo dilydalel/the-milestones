@@ -133,7 +133,7 @@
   function updateDock() {
     if (!dock) return;
     var n = sent ? 0 : form.querySelectorAll('.chip input:checked').length;
-    dock.querySelector('.enq-count').textContent = n ? n + (n === 1 ? ' band' : ' bands') : '';
+    dock.querySelector('.enq-count').textContent = n ? n + ' ' + (n === 1 ? dock.getAttribute('data-one') || 'band' : dock.getAttribute('data-many') || 'bands') : '';
   }
   function persist() { if (!sent) saveDraft(readForm()); updateDock(); }
 
@@ -197,7 +197,7 @@
       el.closest('.field').classList.toggle('invalid', !ok);
       if (!ok) bad.push(el);
     });
-    if (bad.length) { err.textContent = 'Please fill in the highlighted fields.'; bad[0].focus(); return; }
+    if (bad.length) { err.textContent = form.getAttribute('data-missing') || 'Please fill in the highlighted fields.'; bad[0].focus(); return; }
     err.textContent = '';
     var data = {};
     var fd = new FormData(form);
@@ -216,6 +216,6 @@
         p.textContent = form.getAttribute('data-confirm');
         form.appendChild(p);
       })
-      .catch(function (x) { err.textContent = x.message + ' Please try again, or email us.'; button.disabled = false; });
+      .catch(function (x) { err.textContent = x.message + ' ' + (form.getAttribute('data-fail') || 'Please try again, or email us.'); button.disabled = false; });
   });
 })();
