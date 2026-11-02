@@ -537,11 +537,31 @@
             h('button', { type: 'button', onclick: () => fileInput.click() }, 'Upload…'),
             h('button', { type: 'button', onclick: () => { input.value = ''; markDirty(); preview(); } }, 'Clear')),
           fileInput, prev, h('div', { class: 'drophint' }, 'or drag a file here'));
+        if (f.youtubeFrom) el.querySelector('.row').append(h('button', { type: 'button', onclick: () => ytChoices() }, 'From YouTube…'));
+        // stills YouTube makes for every video: its own thumbnail and frames from about ¼, ½ and ¾ of the way through
+        const ytBox = h('div', { class: 'ytpick' });
+        let allControls = {};
+        const ytChoices = () => {
+          ytBox.innerHTML = '';
+          const ctl = allControls[f.youtubeFrom], m = String(ctl ? ctl.get() : '').match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/);
+          if (!m) { ytBox.append(h('p', { class: 'help' }, 'Add the YouTube link first.')); return; }
+          const opts = [['maxresdefault', 'hqdefault', "YouTube's thumbnail"], ['maxres1', 'hq1', 'About ¼ of the way'], ['maxres2', 'hq2', 'Halfway'], ['maxres3', 'hq3', 'About ¾ of the way']];
+          for (const [big, small, label] of opts) {
+            const img = h('img', { alt: '', src: `https://i.ytimg.com/vi/${m[1]}/${big}.jpg` });
+            const card = h('button', { type: 'button', class: 'ytopt', title: 'Use this picture', onclick: () => { input.value = img.src; markDirty(); preview(); ytBox.innerHTML = ''; toast('Thumbnail chosen. Remember to save.'); } }, img, h('span', {}, label));
+            const fallback = () => { if (img.src.includes('/' + big + '.')) img.src = img.src.replace('/' + big + '.', '/' + small + '.'); else card.remove(); };
+            img.addEventListener('error', fallback);
+            img.addEventListener('load', () => { if (img.naturalWidth <= 120) fallback(); });
+            ytBox.append(card);
+          }
+          ytBox.append(h('button', { type: 'button', class: 'ytclose', onclick: () => { ytBox.innerHTML = ''; } }, 'Close'));
+        };
+        if (f.youtubeFrom) el.append(ytBox);
         el.addEventListener('dragover', (e) => { e.preventDefault(); el.classList.add('over'); });
         el.addEventListener('dragleave', () => el.classList.remove('over'));
         el.addEventListener('drop', (e) => { e.preventDefault(); el.classList.remove('over'); const f = e.dataTransfer.files[0]; if (f) doUpload(f); });
         preview();
-        return { el, get: () => input.value };
+        return { el, get: () => input.value, ready: (c) => { allControls = c; } };
       }
       default: {
         const el = h('input', { type: f.type === 'url' ? 'url' : 'text', oninput: markDirty }); el.value = value == null ? '' : value;

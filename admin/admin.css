@@ -122,3 +122,12 @@ body.signin #nav{visibility:hidden}
 #nav-account{padding:14px 20px 0;color:#aaa;font-size:12.5px;line-height:1.7}
 #nav-account a{color:#d8b48f}
 #nav-account .who{color:#ccc}
+
+/* thumbnail choices from YouTube */
+.ytpick{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
+.ytpick:empty{display:none}
+.ytopt{display:flex;flex-direction:column;gap:6px;width:200px;padding:0;border:2px solid transparent;background:none;cursor:pointer;text-align:left;font:inherit;font-size:12px;color:#555}
+.ytopt img{width:100%;aspect-ratio:16/9;object-fit:cover;background:#000;display:block}
+.ytopt:hover{border-color:#8e1b1b}
+.ytopt span{padding:0 4px 4px}
+.ytclose{align-self:flex-start}
