@@ -35,13 +35,13 @@
  {
   "bandId": "band-stony-strings",
   "title": "Strings",
-  "youtubeUrl": "",
-  "file": "source-assets/old-site-videos/Milestones-Strings.mp4",
+  "youtubeUrl": "https://www.youtube.com/watch?v=zd6-B6JQqQQ",
+  "file": "",
   "poster": "source-assets/old-site-videos/milestones-strings-vid.jpg",
   "order": 4,
   "id": "video-4",
   "createdAt": "2026-11-02T16:01:04.513Z",
-  "updatedAt": "2026-11-02T17:26:37.566Z"
+  "updatedAt": "2026-11-02T18:35:03.243Z"
  },
  {
   "bandId": "",
