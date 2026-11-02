@@ -36,7 +36,7 @@
   });
 
   // ---------- testimonials slider (as on the FSQ site): no looping, arrows hide at the ends
-  // ---------- long quotes: cut to 4 lines with "…"; click the quote to read it all, click again to shorten
+  // ---------- long quotes: cut to 5 lines with "…"; click the quote to read it all, click again to shorten
   function checkMore() {
     document.querySelectorAll('.quotes figure').forEach(function (f) {
       var t = f.querySelector('.qtext');

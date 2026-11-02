@@ -268,16 +268,16 @@ body.enq-open{overflow:hidden}
 .band h2{margin-top:20px;margin-bottom:12px}
 /* home band boxes: tighter padding (phones keep their own padding) */
 @media(min-width:801px){.band{padding:20px 32px 32px}}
-/* quotes: at most 4 lines, then "…" (click the quote to open it) */
-.quotes .qtext{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;line-clamp:4;overflow:hidden}
+/* quotes: at most 5 lines, then "…" (click the quote to open it) */
+.quotes .qtext{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:5;line-clamp:5;overflow:hidden}
 .quotes .qtext p+p{margin-top:0}
 .quotes figure.open .qtext{display:block;-webkit-line-clamp:unset;line-clamp:none;overflow:visible}
 .quotes figure.open .qtext p+p{margin-top:12px}
 .quotes figure.cut .qtext,.quotes figure.open .qtext{cursor:pointer}
 .quotes .qtext:focus-visible{outline:1px solid #8e1b1b;outline-offset:4px}
-.qa{top:107px}
-.sec .qa{top:73px}
-@media(max-width:800px){.qa{top:91px}.sec .qa{top:67px}}
+.qa{top:122px}
+.sec .qa{top:88px}
+@media(max-width:800px){.qa{top:106px}.sec .qa{top:82px}}
 /* band pages: photo on the right, the About text wraps underneath it when it is longer */
 .band-top{display:block}
 .band-top::after{content:"";display:block;clear:both}
