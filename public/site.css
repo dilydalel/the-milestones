@@ -313,3 +313,5 @@ body{font-family:'Work Sans','Helvetica Neue',Arial,sans-serif}
 .home .hero h1{font-size:clamp(34px,4.7vw,66px)}
 /* home band taglines: wide letter spacing, as on the font test page */
 .band .tagline{letter-spacing:.2em}
+/* intro line: lighter */
+.intro p{font-weight:400;color:#2a2a2a}
