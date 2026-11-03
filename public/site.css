@@ -315,3 +315,11 @@ body{font-family:'Work Sans','Helvetica Neue',Arial,sans-serif}
 .band .tagline{letter-spacing:.2em}
 /* intro line: lighter */
 .intro p{font-weight:400;color:#2a2a2a}
+/* phones use the same vertical spacing as larger screens (sides stay narrower) */
+@media(max-width:800px){
+  .band{padding:20px 24px 32px}
+  .quotes{padding-top:64px;padding-bottom:64px}
+  .sec .quotes{padding-top:30px;padding-bottom:0}
+  .home-sec-title{padding-top:44px;padding-bottom:24px}
+  .clients-sec{padding-top:44px;padding-bottom:90px}
+}
