@@ -302,3 +302,12 @@ body.enq-open{overflow:hidden}
 /* date picker: dark style so the calendar icon and pop-up suit the form */
 .field input[type=date]{color-scheme:dark;cursor:pointer}
 .field input[type=date]::-webkit-calendar-picker-indicator{cursor:pointer;opacity:.8}
+
+/* fonts (Nov 2026): headings Julius Sans One, quotes/intro/taglines Cormorant Garamond, text Figtree */
+body{font-family:'Figtree','Helvetica Neue',Arial,sans-serif}
+.serif{font-family:'Julius Sans One','Helvetica Neue',Arial,sans-serif}
+.intro p,.quotes blockquote,.band .tagline,.rep h3,.faqs summary,.thanks{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif}
+.faqs summary::after{font-family:'Figtree',Arial,sans-serif}
+.caps{font-size:12px}
+.band .tags span{font-size:11px}
+.home .hero h1{font-size:clamp(34px,4.7vw,66px)}
