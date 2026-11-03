@@ -208,7 +208,7 @@
   "updatedAt": "2026-11-02T17:57:42.403Z"
  },
  {
-  "name": "Stony Strings",
+  "name": "The Stringstones",
   "status": "published",
   "showOnHome": true,
   "homeOrder": 4,
@@ -235,7 +235,7 @@
   "shareImage": "",
   "id": "band-stony-strings",
   "createdAt": "2026-11-02T16:01:04.513Z",
-  "updatedAt": "2026-11-02T17:57:42.403Z",
+  "updatedAt": "2026-11-03T17:41:45.869Z",
   "excludedSongIds": [],
   "heroPosition": "center",
   "heroStart": 0,
